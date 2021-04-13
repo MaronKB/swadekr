@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.swade.sheet.actor.character .skills .skills-list .skill-attribute {
+	flex-grow: 1;
+}
+.swade.sheet.actor.character .vitals .bennies,
+.swade.sheet.actor .sheet-body .skills .skills-list,
+.swade.sheet.actor.character .skills .skills-list {
+	box-sizing: content-box;
+}
+body {
+	font-family: 'MaplestoryOTFLight';
+}

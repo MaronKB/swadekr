@@ -1,0 +1,674 @@
+{
+	"label": "장점",
+	"mapping": {
+		"desc": "data.description",
+		"req": "data.requirements.value"
+	},
+	"entries": [
+		{
+			"id": "Ace",
+			"name": "에이스 (Ace)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Acrobat",
+			"name": "곡예사 (Acrobat)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Alertness",
+			"name": "경각심 (Alertness)",
+			"req": "초보자"
+		},
+		{
+			"id": "Ambidextrous",
+			"name": "양손잡이 (Ambidextrous)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Arcane Background",
+			"name": "마도 배경 (Arcane Background)",
+			"req": "초보자"
+		},
+		{
+			"id": "Arcane Resistance",
+			"name": "마도 저항 (Arcane Resistance)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Aristocrat",
+			"name": "귀족 (Aristocrat)",
+			"req": "초보자"
+		},
+		{
+			"id": "Artificer",
+			"name": "기능공 (Artificer)",
+			"req": "숙련자, 마도 배경 (Arcane Background)"
+		},
+		{
+			"id": "Assasin",
+			"name": "암살자 (Assasin)",
+			"req": "초보자, 민첩성 d8+, 격투 (Fighting) d6+, 은신 (Stealth) d8+"
+		},
+		{
+			"id": "Attractive",
+			"name": "매력 (Attractive)",
+			"req": "초보자, 건강 d6+"
+		},
+		{
+			"id": "Beast Bond",
+			"name": "비스트 본드 (Beast Bond)",
+			"req": "초보자"
+		},
+		{
+			"id": "Beast Master",
+			"name": "비스트 마스터 (Beast Master)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Berserk",
+			"name": "광화 (Berserk)",
+			"req": "초보자"
+		},
+		{
+			"id": "Block",
+			"name": "방어 (Block)",
+			"req": "숙련자, 격투 (Fighting) d8+"
+		},
+		{
+			"id": "Bolster",
+			"name": "개선책 (Bolster)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Brave",
+			"name": "용사 (Brave)",
+			"req": "초보자, 정신력 d6+"
+		},
+		{
+			"id": "Brawler",
+			"name": "싸움꾼 (Brawler)",
+			"req": "초보자, 근력 d8+, 건강 d8+"
+		},
+		{
+			"id": "Brawny",
+			"name": "근육질 (Brawny)",
+			"req": "초보자, 근력 d6+, 건강 d6+"
+		},
+		{
+			"id": "Bruiser",
+			"name": "떡대 (Bruiser)",
+			"req": "숙련자, 싸움꾼 (Brawler)"
+		},
+		{
+			"id": "Brute",
+			"name": "야성 (Brute)",
+			"req": "초보자, 근력 d6+, 건강 d6+"
+		},
+		{
+			"id": "Calculating",
+			"name": "타산 (Calculating)",
+			"req": "초보자, 지능 d8+"
+		},
+		{
+			"id": "Champion",
+			"name": "챔피언 (Champion)",
+			"req": "초보자, 정신력 d8+, 격투 (Fighting) d6+"
+		},
+		{
+			"id": "Channeling",
+			"name": "영창 (Channeling)",
+			"req": "숙련자, 마도 배경 (Arcane Background)"
+		},
+		{
+			"id": "Charismatic",
+			"name": "카리스마 (Charismatic)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Chi",
+			"name": "기 (Chi)",
+			"req": "베테랑, 무술가 (Martial Warrior)"
+		},
+		{
+			"id": "Combat Acrobat",
+			"name": "전투곡예사 (Combat Acrobat)",
+			"req": "숙련자, 곡예사 (Acrobat)"
+		},
+		{
+			"id": "Combat Reflexes",
+			"name": "전투적 유연성 (Combat Reflexes)",
+			"req": "숙련자"
+		},
+		{
+			"id": "Command",
+			"name": "지휘관 (Command)",
+			"req": "초보자, 지능 d6+"
+		},
+		{
+			"id": "Command Presence",
+			"name": "전술지휘관 (Command Presence)",
+			"req": "숙련자, 지휘관 (Command)"
+		},
+		{
+			"id": "Common Bond",
+			"name": "공통의 유대 (Common Bond)",
+			"req": "와일드카드, 초보자, 정신력 d8+"
+		},
+		{
+			"id": "Concentration",
+			"name": "정신 집중 (Concentration)",
+			"req": "숙련자, 마도 배경 (Arcane Background)"
+		},
+		{
+			"id": "Connections",
+			"name": "인맥 (Connections)",
+			"req": "초보자"
+		},
+		{
+			"id": "Counterattack",
+			"name": "반격 (Counterattack)",
+			"req": "숙련자, 격투 (Fighting) d8+"
+		},
+		{
+			"id": "Danger Sense",
+			"name": "위험 감지 (Danger Sense)",
+			"req": "초보자"
+		},
+		{
+			"id": "Dead Shot",
+			"name": "필중탄 (Dead Shot)",
+			"req": "와일드카드, 초보자, 운동 (Athletics) 또는 사격 (Shooting) d8+)"
+		},
+		{
+			"id": "Dodge",
+			"name": "회피 (Dodge)",
+			"req": "숙련자, 민첩성 d8+"
+		},
+		{
+			"id": "Double Tap",
+			"name": "더블 탭 (Double Tap)",
+			"req": "숙련자, 사격 (Shooting) d6+"
+		},
+		{
+			"id": "Elan",
+			"name": "기백 (Elan)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Expert",
+			"name": "전문가 (Expert)",
+			"req": "전설급, 대상 특기에 대한 전문성 (Professional)"
+		},
+		{
+			"id": "Extra Effort",
+			"name": "각별한 노력 (Extra Effort)",
+			"req": "숙련자, 마도 배경:기프티드 (Arcane Background:Gifted), 집중 (Focus) d6+"
+		},
+		{
+			"id": "Extraction",
+			"name": "탈주 (Extraction)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Fame",
+			"name": "유명함 (Fame)",
+			"req": "초보자"
+		},
+		{
+			"id": "Famous",
+			"name": "명성 (Famous)",
+			"req": "숙련자, 유명함"
+		},
+		{
+			"id": "Fast Healer",
+			"name": "초재생 (Fast Healer)",
+			"req": "초보자, 건강 d8+"
+		},
+		{
+			"id": "Feint",
+			"name": "속임수 (Feint)",
+			"req": "초보자, 격투 (Fighting) d8+"
+		},
+		{
+			"id": "Fervor",
+			"name": "열정 (Fervor)",
+			"req": "베테랑, 정신력 d8+, 지휘관 (Command)"
+		},
+		{
+			"id": "Filthy Rich",
+			"name": "떼부자 (Filthy Rich)",
+			"req": "초보자, 부자 (Rich)"
+		},
+		{
+			"id": "First Strike",
+			"name": "제일타 (First Strike)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Fleet-Footed",
+			"name": "날쌘돌이 (Fleet-Footed)",
+			"req": "초보자, 민첩성 d6+"
+		},
+		{
+			"id": "Followers",
+			"name": "추종자 (Followers)",
+			"req": "와일드카드, 전설급"
+		},
+		{
+			"id": "Free Runner",
+			"name": "프리러너 (Free Runner)",
+			"req": "초보자, 민첩성 d8+, 운동 (Athletics) d8+"
+		},
+		{
+			"id": "Frenzy",
+			"name": "광란 (Frenzy)",
+			"req": "숙련자, 격투 (Fighting) d8+"
+		},
+		{
+			"id": "Gadgeteer",
+			"name": "기계공 (Gadgeteer)",
+			"req": "숙련자, 마도 배경:괴과학 (Arcane Background:Weird Science) d6+"
+		},
+		{
+			"id": "Giant Killer",
+			"name": "자이언트 킬러 (Giant Killer)",
+			"req": "베테랑"
+		},
+		{
+			"id": "Great Luck",
+			"name": "강운 (Great Luck)",
+			"req": "초보자, 행운 (Luck)"
+		},
+		{
+			"id": "Hard To Kill",
+			"name": "난살 (Hard To Kill)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Harder To Kill",
+			"name": "불살 (Harder To Kill)",
+			"req": "베테랑, 난살 (Hard To Kill)"
+		},
+		{
+			"id": "Healer",
+			"name": "치유사 (Healer)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Hold The Line!",
+			"name": "전열을 유지하라! (Hold The Line!)",
+			"req": "숙련자, 지능 d8+, 지휘관 (Command)"
+		},
+		{
+			"id": "Humiliate",
+			"name": "집요함 (Humiliate)",
+			"req": "초보자, 조롱 (Taunt) d8+"
+		},
+		{
+			"id": "Improved Arcane Resistance",
+			"name": "마도 저항 향상 (Improved Arcane Resistance)",
+			"req": "초보자, 마도 저항 (Arcane Resistance)"
+		},
+		{
+			"id": "Improved Block",
+			"name": "방어 향상 (Improved Block)",
+			"req": "베테랑, 방어 (Block)"
+		},
+		{
+			"id": "Improved Counterattack",
+			"name": "반격 향상 (Improved Counterattack)",
+			"req": "베테랑, 반격 (Counterattack)"
+		},
+		{
+			"id": "Improved Dodge",
+			"name": "회피 향상 (Improved Dodge)",
+			"req": "숙련자, 회피 (Dodge)"
+		},
+		{
+			"id": "Improved Extraction",
+			"name": "탈주 향상 (Improved Extraction)",
+			"req": "숙련자, 탈주 (Extraction)"
+		},
+		{
+			"id": "Improved First Strike",
+			"name": "제일타 향상 (Improved First Strike)",
+			"req": "영웅급, 제일타 (First Strike)"
+		},
+		{
+			"id": "Improved Frenzy",
+			"name": "광란 향상 (Improved Frenzy)",
+			"req": "베테랑, 광란 (Frenzy)"
+		},
+		{
+			"id": "Improved Level Headed",
+			"name": "냉정침착 향상 (Improved Level Headed)",
+			"req": "숙련자, 냉정침착 (Level Headed)"
+		},
+		{
+			"id": "Improved Nerves of Steel",
+			"name": "대담함 향상 (Improved Nerves of Steel)",
+			"req": "초보자, 대담함 (Nerves of Steel)"
+		},
+		{
+			"id": "Improved Rapid Fire",
+			"name": "속사 향상 (Improved Rapid Fire)",
+			"req": "베테랑, 속사 (Rapid Fire)"
+		},
+		{
+			"id": "Improved Rapid Recharge",
+			"name": "고속 재충전 향상 (Improved Rapid Recharge)",
+			"req": "베테랑, 고속 재충전 (Rapid Recharge)"
+		},
+		{
+			"id": "Improved Sweep",
+			"name": "휩쓸이 향상 (Improved Sweep)",
+			"req": "베테랑, 휩쓸이 (Sweep)"
+		},
+		{
+			"id": "Improved Trademark Weapon",
+			"name": "주무기 향상 (Improved Trademark Weapon)",
+			"req": "숙련자, 주무기 (Trademark Weapon)"
+		},
+		{
+			"id": "Improvisational Fighter",
+			"name": "즉흥형 투사 (Improvisational Fighter)",
+			"req": "숙련자, 지능 d6+"
+		},
+		{
+			"id": "Inspire",
+			"name": "격려 (Inspire)",
+			"req": "숙련자, 지휘관 (Command)"
+		},
+		{
+			"id": "Investigator",
+			"name": "탐정 (Investigator)",
+			"req": "초보자, 지능 d8+, 조사 (Research)"
+		},
+		{
+			"id": "Iron Jaw",
+			"name": "강철 턱 (Iron Jaw)",
+			"req": "초보자, 건강d8+"
+		},
+		{
+			"id": "Iron Will",
+			"name": "강철의 의지 (Iron Will)",
+			"req": "숙련자, 용사 (Brave), 확고한 의지"
+		},
+		{
+			"id": "Jack-of-all-Trades",
+			"name": "다재다능 (Jack-of-all-Trades)",
+			"req": "초보자, 지능 d10+"
+		},
+		{
+			"id": "Killer Instinct",
+			"name": "살인충동 (Killer Instinct)",
+			"req": "숙련자"
+		},
+		{
+			"id": "Level Headed",
+			"name": "냉정침착 (Level Headed)",
+			"req": "숙련자, 지능 d8+"
+		},
+		{
+			"id": "Linguist",
+			"name": "언어학자 (Linguist)",
+			"req": "초보자, 지능 d6+"
+		},
+		{
+			"id": "Liquid Courage",
+			"name": "용기의 물약 (Liquid Courage)",
+			"req": "초보자, 건강 d8+"
+		},
+		{
+			"id": "Luck",
+			"name": "행운 (Luck)",
+			"req": "초보자"
+		},
+		{
+			"id": "Marksman",
+			"name": "명사수 (Marksman)",
+			"req": "숙련자, 운동 (Athletics) d8+ 또는 사격 (Shooting) d8+"
+		},
+		{
+			"id": "Martial Artist",
+			"name": "무술인 (Martial Artist)",
+			"req": "초보자, 격투 (Fighting) d6+"
+		},
+		{
+			"id": "Martial Warrior",
+			"name": "무술가 (Martial Warrior)",
+			"req": "숙련자, 무술인 (Martial Artist)"
+		},
+		{
+			"id": "Master",
+			"name": "달인 (Master)",
+			"req": "와일드카드, 전설급, 대상 특기에 대한 전문가 (Expert)"
+		},
+		{
+			"id": "Master of Arms",
+			"name": "무장의 달인 (Master of Arms)",
+			"req": "전설급, 무기의 달인 (Weapon Master)"
+		},
+		{
+			"id": "Master Tactician",
+			"name": "공명 (Master Tactician)",
+			"req": "베테랑, 책사"
+		},
+		{
+			"id": "McGyver",
+			"name": "맥가이버 (McGyver)",
+			"req": "초보자, 지능 d6+, 주의력 (Notice) d8+, 수리 (Repair) d6+"
+		},
+		{
+			"id": "Menacing",
+			"name": "위협적 (Menacing)",
+			"req": "초보자, 다음 단점 중 하나: 유혈광 (Bloodthirsty), 째째함 (Mean), 무자비 (Ruthless)"
+		},
+		{
+			"id": "Mentalist",
+			"name": "유심론자 (Mentalist)",
+			"req": "숙련자, 마도 배경:초능력 (Arcane Background:Psionics), 초능력 (Psionics) d6+"
+		},
+		{
+			"id": "Mighty Blow",
+			"name": "권압 (Mighty Blow)",
+			"req": "와일드카드, 초보자, 격투 (Fighting) d8+"
+		},
+		{
+			"id": "Mr. Fix It",
+			"name": "행정보급관 (Mr. Fix It)",
+			"req": "초보자, 수리 (Repair) d8+"
+		},
+		{
+			"id": "Natural Leader",
+			"name": "천성 지휘관 (Natural Leader)",
+			"req": "숙련자, 정신력 d8+ 지휘관 (Command)"
+		},
+		{
+			"id": "Nerves of Steel",
+			"name": "대담함 (Nerves of Steel)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "New Powers",
+			"name": "새로운 이능 (New Powers)",
+			"req": "초보자, 마도 배경 (Arcane Background)"
+		},
+		{
+			"id": "No Mercy",
+			"name": "무자비 (No Mercy)",
+			"req": "숙련자"
+		},
+		{
+			"id": "Power Points",
+			"name": "이능 점수 (Power Points)",
+			"req": "초보자, 마도 배경 (Arcane Background)"
+		},
+		{
+			"id": "Power Surge",
+			"name": "이능 충상 (Power Surge)",
+			"req": "와일드카드, 초보자, 마도 배경 (Arcane Background), 마도 기술 d8+"
+		},
+		{
+			"id": "Professional",
+			"name": "전문성 (Professional)",
+			"req": "전설급, 대상 특기의 최대 주사위"
+		},
+		{
+			"id": "Provoke",
+			"name": "도발 (Provoke)",
+			"req": "초보자, 조롱 (Taunt) d6+"
+		},
+		{
+			"id": "Quick",
+			"name": "재빠름 (Quick)",
+			"req": "초보자, 민첩 d8+"
+		},
+		{
+			"id": "Rabble-Rouser",
+			"name": "선동가 (Rabble-Rouser)",
+			"req": "숙련자, 정신력 d8+"
+		},
+		{
+			"id": "Rapid Fire",
+			"name": "속사 (Rapid Fire)",
+			"req": "숙련자, 사격 (Shooting) d6+"
+		},
+		{
+			"id": "Rapid Recharge",
+			"name": "고속 재충전 (Rapid Recharge)",
+			"req": "숙련자, 정신력 d6+, 마도 배경 (Arcane Background)"
+		},
+		{
+			"id": "Reliable",
+			"name": "공신력 (Reliable)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Retort",
+			"name": "응수 (Retort)",
+			"req": "초보자, 조롱 (Taunt) d6+"
+		},
+		{
+			"id": "Rich",
+			"name": "부자 (Rich)",
+			"req": "초보자"
+		},
+		{
+			"id": "Rock and Roll!",
+			"name": "로큰롤! (Rock and Roll!)",
+			"req": "숙련자, 사격 (Shooting) d6+"
+		},
+		{
+			"id": "Scavenger",
+			"name": "스캐빈저 (Scavenger)",
+			"req": "초보자, 행운 (Luck)"
+		},
+		{
+			"id": "Scholar",
+			"name": "학자 (Scholar)",
+			"req": "초보자, 조사 (Research)"
+		},
+		{
+			"id": "Sidekick",
+			"name": "사이드킥 (Sidekick)",
+			"req": "와일드카드, 전설급"
+		},
+		{
+			"id": "Soldier",
+			"name": "군인 (Soldier)",
+			"req": "초보자, 근력 d6+, 건강 d6+"
+		},
+		{
+			"id": "Soul Drain",
+			"name": "영혼 흡수 (Soul Drain)",
+			"req": "숙련자, 마도 배경 (Arcane Background), 마도 기술 d10+"
+		},
+		{
+			"id": "Steady Hands",
+			"name": "안정된 손놀림 (Steady Hands)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Streetwise",
+			"name": "인심세태 (Streetwise)",
+			"req": "초보자, 지능 d6+"
+		},
+		{
+			"id": "Strong Willed",
+			"name": "확고한 의지 (Strong Willed)",
+			"req": "초보자, 정신력 d8+"
+		},
+		{
+			"id": "Sweep",
+			"name": "휩쓸이 (Sweep)",
+			"req": "초보자, 근력 d8+, 격투 (Fighting) d8+"
+		},
+		{
+			"id": "Tactician",
+			"name": "책사 (Tactician)",
+			"req": "숙련자, 지능 d8+, 지휘관 (Command), 전술 (Battle) d6+"
+		},
+		{
+			"id": "Thief",
+			"name": "도둑 (Thief)",
+			"req": "초보자, 건강 d8+, 은신 d6+, 도둑질 d6+"
+		},
+		{
+			"id": "Tough As Nails",
+			"name": "목석 같은 끈질김 (Tough As Nails)",
+			"req": "전설급, 건강 d8+"
+		},
+		{
+			"id": "Tougher Than Nails",
+			"name": "목석 이상의 질김 (Tougher Than Nails)",
+			"req": "전설급, 목석 같은 끈질김 (Tough As Nails), 건강 d12+"
+		},
+		{
+			"id": "Trademark Weapon",
+			"name": "주무기 (Trademark Weapon)",
+			"req": "초보자, 선택한 무기에 대한 기술 d8+"
+		},
+		{
+			"id": "Two-Fisted",
+			"name": "쌍수 (Two-Fisted)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Two-Gun Kid",
+			"name": "쌍총 (Two-Gun Kid)",
+			"req": "초보자, 민첩성 d8+"
+		},
+		{
+			"id": "Very Attractive",
+			"name": "경국지색 (Very Attractive)",
+			"req": "초보자, 매력 (Attractive)"
+		},
+		{
+			"id": "Weapon Master",
+			"name": "무기의 달인 (Weapon Master)",
+			"req": "전설급, 격투 (Fighting) d12+"
+		},
+		{
+			"id": "Wizard",
+			"name": "마법사 (Wizard)",
+			"req": "숙련자, 마도 배경 (Arcane Background)"
+		},
+		{
+			"id": "Woodsman",
+			"name": "자연인 (Woodsman)",
+			"req": "초보자, 정신력 d6+, 생존 d8+"
+		},
+		{
+			"id": "Work The Crowd",
+			"name": "군중장악 (Work The Crowd)",
+			"req": "숙련자, 공간장악 (Work The Room)"
+		},
+		{
+			"id": "Work The Room",
+			"name": "공간장악 (Work The Room)",
+			"req": "초보자, 정신력 d8+"
+		}
+	]
+}

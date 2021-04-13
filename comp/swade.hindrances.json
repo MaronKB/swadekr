@@ -1,0 +1,233 @@
+{
+	"label": "단점",
+	"entries": [
+		{
+			"id": "All Thumbs",
+			"name": "기계치 (All Thumbs)"
+		},
+		{
+			"id": "Anemic",
+			"name": "빈혈 (Anemic)"
+		},
+		{
+			"id": "Arrogant",
+			"name": "자만 (Arrogant)"
+		},
+		{
+			"id": "Bad Eyes",
+			"name": "약시 (Bad Eyes)"
+		},
+		{
+			"id": "Bad Luck",
+			"name": "불운 (Bad Luck)"
+		},
+		{
+			"id": "Big Mouth",
+			"name": "가벼운 입 (Big Mouth)"
+		},
+		{
+			"id": "Blind",
+			"name": "맹인 (Blind)"
+		},
+		{
+			"id": "Bloodthirsty",
+			"name": "유혈광 (Bloodthirsty)"
+		},
+		{
+			"id": "Can't Swim",
+			"name": "맥주병 (Can't Swim)"
+		},
+		{
+			"id": "Cautious",
+			"name": "조심스러움 (Cautious)"
+		},
+		{
+			"id": "Clueless",
+			"name": "몰상식 (Clueless)"
+		},
+		{
+			"id": "Clumsy",
+			"name": "몸치 (Clumsy)"
+		},
+		{
+			"id": "Code of Honor",
+			"name": "기사도 (Code of Honor)"
+		},
+		{
+			"id": "Curious",
+			"name": "궁금증 (Curious)"
+		},
+		{
+			"id": "Death Wish",
+			"name": "죽음선망 (Death Wish)"
+		},
+		{
+			"id": "Delusional",
+			"name": "망상증 (Delusional)"
+		},
+		{
+			"id": "Doubting Thomas",
+			"name": "회의주의자 (Doubting Thomas)"
+		},
+		{
+			"id": "Driven",
+			"name": "의욕 중시 (Driven)"
+		},
+		{
+			"id": "Elderly",
+			"name": "늙음 (Elderly)"
+		},
+		{
+			"id": "Enemy",
+			"name": "적대적 (Enemy)"
+		},
+		{
+			"id": "Greedy",
+			"name": "탐욕 (Greedy)"
+		},
+		{
+			"id": "Habit",
+			"name": "습관 (Habit)"
+		},
+		{
+			"id": "Hard of Hearing",
+			"name": "청각장애 (Hard of Hearing)"
+		},
+		{
+			"id": "Heroic",
+			"name": "영웅적 (Heroic)"
+		},
+		{
+			"id": "Hesitant",
+			"name": "우유부단 (Hesitant)"
+		},
+		{
+			"id": "Illiterate",
+			"name": "문맹 (Illiterate)"
+		},
+		{
+			"id": "Impulsive",
+			"name": "충동적 (Impulsive)"
+		},
+		{
+			"id": "Jealous",
+			"name": "질투심 (Jealous)"
+		},
+		{
+			"id": "Loyal",
+			"name": "복종 (Loyal)"
+		},
+		{
+			"id": "Mean",
+			"name": "째째함 (Mean)"
+		},
+		{
+			"id": "Mild Mannered",
+			"name": "온순함 (Mild Mannered)"
+		},
+		{
+			"id": "Mute",
+			"name": "언어장애 (Mute)"
+		},
+		{
+			"id": "Obese",
+			"name": "비만 (Obese)"
+		},
+		{
+			"id": "Obligation",
+			"name": "사축 (Obligation)"
+		},
+		{
+			"id": "One Arm",
+			"name": "외팔이 (One Arm)"
+		},
+		{
+			"id": "One Eye",
+			"name": "외눈 (One Eye)"
+		},
+		{
+			"id": "Outsider",
+			"name": "외부인 (Outsider)"
+		},
+		{
+			"id": "Overconfident",
+			"name": "과신 (Overconfident)"
+		},
+		{
+			"id": "Pacifist",
+			"name": "평화주의자 (Pacifist)"
+		},
+		{
+			"id": "Phobia",
+			"name": "혐오자 (Phobia)"
+		},
+		{
+			"id": "Poverty",
+			"name": "빈곤 (Poverty)"
+		},
+		{
+			"id": "Quirk",
+			"name": "강박 (Quirk)"
+		},
+		{
+			"id": "Ruthless",
+			"name": "무자비 (Ruthless)"
+		},
+		{
+			"id": "Secret",
+			"name": "비밀 (Secret)"
+		},
+		{
+			"id": "Shamed",
+			"name": "수치 (Shamed)"
+		},
+		{
+			"id": "Slow",
+			"name": "굼뜸 (Slow)"
+		},
+		{
+			"id": "Small",
+			"name": "작음 (Small)"
+		},
+		{
+			"id": "Stubborn",
+			"name": "고집불통 (Stubborn)"
+		},
+		{
+			"id": "Suspicious",
+			"name": "편집증 (Suspicious)"
+		},
+		{
+			"id": "Thin Skinned",
+			"name": "유리멘탈 (Thin Skinned)"
+		},
+		{
+			"id": "Tongue-Tied",
+			"name": "혀짤배기 (Tongue-Tied)"
+		},
+		{
+			"id": "Ugly",
+			"name": "못생김 (Ugly)"
+		},
+		{
+			"id": "Vengeful",
+			"name": "복수극 (Vengeful)"
+		},
+		{
+			"id": "Vow",
+			"name": "맹세 (Vow)"
+		},
+		{
+			"id": "Wanted",
+			"name": "지명수배 (Wanted)"
+		},
+		{
+			"id": "Yellow",
+			"name": "겁쟁이 (Yellow)"
+		},
+		{
+			"id": "Young",
+			"name": "어림 (Young)"
+		}
+	]
+}

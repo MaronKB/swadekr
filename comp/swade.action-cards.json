@@ -1,0 +1,275 @@
+{
+	"label": "액션 카드",
+	"entries": [
+		{
+			"id": "10 of Clubs",
+			"name": "클럽 10",
+			"description": "10&clubs;"
+		},
+		{
+			"id": "10 of Diamonds",
+			"name": "다이아 10",
+			"description": "10&diams;"
+		},
+		{
+			"id": "10 of Hearts",
+			"name": "하트 10",
+			"description": "10&hearts;"
+		},
+		{
+			"id": "10 of Spades",
+			"name": "스페이드 10",
+			"description": "10&spades;"
+		},
+		{
+			"id": "2 of Clubs",
+			"name": "클럽 2",
+			"description": "2&clubs;"
+		},
+		{
+			"id": "2 of Diamonds",
+			"name": "다이아 2",
+			"description": "2&diams;"
+		},
+		{
+			"id": "2 of Hearts",
+			"name": "하트 2",
+			"description": "2&hearts;"
+		},
+		{
+			"id": "2 of Spades",
+			"name": "스페이드 2",
+			"description": "2&spades;"
+		},
+		{
+			"id": "3 of Clubs",
+			"name": "클럽 3",
+			"description": "3&clubs;"
+		},
+		{
+			"id": "3 of Diamonds",
+			"name": "다이아 3",
+			"description": "3&diams;"
+		},
+		{
+			"id": "3 of Hearts",
+			"name": "하트 3",
+			"description": "3&hearts;"
+		},
+		{
+			"id": "3 of Spades",
+			"name": "스페이드 3",
+			"description": "3&spades;"
+		},
+		{
+			"id": "4 of Clubs",
+			"name": "클럽 4",
+			"description": "4&clubs;"
+		},
+		{
+			"id": "4 of Diamonds",
+			"name": "다이아 4",
+			"description": "4&diams;"
+		},
+		{
+			"id": "4 of Hearts",
+			"name": "하트 4",
+			"description": "4&hearts;"
+		},
+		{
+			"id": "4 of Spades",
+			"name": "스페이드 4",
+			"description": "4&spades;"
+		},
+		{
+			"id": "5 of Clubs",
+			"name": "클럽 5",
+			"description": "5&clubs;"
+		},
+		{
+			"id": "5 of Diamonds",
+			"name": "다이아 5",
+			"description": "5&diams;"
+		},
+		{
+			"id": "5 of Hearts",
+			"name": "하트 5",
+			"description": "5&hearts;"
+		},
+		{
+			"id": "5 of Spades",
+			"name": "스페이드 5",
+			"description": "5&spades;"
+		},
+		{
+			"id": "6 of Clubs",
+			"name": "클럽 6",
+			"description": "6&clubs;"
+		},
+		{
+			"id": "6 of Diamonds",
+			"name": "다이아 6",
+			"description": "6&diams;"
+		},
+		{
+			"id": "6 of Hearts",
+			"name": "하트 6",
+			"description": "6&hearts;"
+		},
+		{
+			"id": "6 of Spades",
+			"name": "스페이드 6",
+			"description": "6&spades;"
+		},
+		{
+			"id": "7 of Clubs",
+			"name": "클럽 7",
+			"description": "7&clubs;"
+		},
+		{
+			"id": "7 of Diamonds",
+			"name": "다이아 7",
+			"description": "7&diams;"
+		},
+		{
+			"id": "7 of Hearts",
+			"name": "하트 7",
+			"description": "7&hearts;"
+		},
+		{
+			"id": "7 of Spades",
+			"name": "스페이드 7",
+			"description": "7&spades;"
+		},
+		{
+			"id": "8 of Clubs",
+			"name": "클럽 8",
+			"description": "8&clubs;"
+		},
+		{
+			"id": "8 of Diamonds",
+			"name": "다이아 8",
+			"description": "8&diams;"
+		},
+		{
+			"id": "8 of Hearts",
+			"name": "하트 8",
+			"description": "8&hearts;"
+		},
+		{
+			"id": "8 of Spades",
+			"name": "스페이드 8",
+			"description": "8&spades;"
+		},
+		{
+			"id": "9 of Clubs",
+			"name": "클럽 8",
+			"description": "9&clubs;"
+		},
+		{
+			"id": "9 of Diamonds",
+			"name": "다이아 9",
+			"description": "9&diams;"
+		},
+		{
+			"id": "9 of Hearts",
+			"name": "하트 9",
+			"description": "9&hearts;"
+		},
+		{
+			"id": "9 of Spades",
+			"name": "스페이드 9",
+			"description": "9&spades;"
+		},
+		{
+			"id": "Ace of Clubs",
+			"name": "클럽 A",
+			"description": "A&clubs;"
+		},
+		{
+			"id": "Ace of Diamonds",
+			"name": "다이아 A",
+			"description": "A&diams;"
+		},
+		{
+			"id": "Ace of Hearts",
+			"name": "하트 A",
+			"description": "A&hearts;"
+		},
+		{
+			"id": "Ace of Spades",
+			"name": "스페이드 A",
+			"description": "A&spades;"
+		},
+		{
+			"id": "Black Joker",
+			"name": "블랙 조커",
+			"description": "블랙 조커"
+		},
+		{
+			"id": "Jack of Clubs",
+			"name": "클럽 잭",
+			"description": "J&clubs;"
+		},
+		{
+			"id": "Jack of Diamonds",
+			"name": "다이아 잭",
+			"description": "J&diams;"
+		},
+		{
+			"id": "Jack of Hearts",
+			"name": "하트 잭",
+			"description": "J&hearts;"
+		},
+		{
+			"id": "Jack of Spades",
+			"name": "스페이드 잭",
+			"description": "J&spades;"
+		},
+		{
+			"id": "King of Clubs",
+			"name": "클럽 킹",
+			"description": "K&clubs;"
+		},
+		{
+			"id": "King of Diamonds",
+			"name": "다이아 킹",
+			"description": "K&diams;"
+		},
+		{
+			"id": "King of Hearts",
+			"name": "하트 킹",
+			"description": "K&hearts;"
+		},
+		{
+			"id": "King of Spades",
+			"name": "스페이드 킹",
+			"description": "K&spades;"
+		},
+		{
+			"id": "Queen of Clubs",
+			"name": "클럽 퀸",
+			"description": "Q&clubs;"
+		},
+		{
+			"id": "Queen of Diamonds",
+			"name": "다이아 퀸",
+			"description": "Q&diams;"
+		},
+		{
+			"id": "Queen of Hearts",
+			"name": "하트 퀸",
+			"description": "Q&hearts;"
+		},
+		{
+			"id": "Queen of Spades",
+			"name": "스페이드 퀸",
+			"description": "Q&spades;"
+		},
+		{
+			"id": "Red Joker",
+			"name": "레드 조커",
+			"description": "레드 조커"
+		}
+	]
+}

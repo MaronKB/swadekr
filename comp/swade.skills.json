@@ -1,0 +1,137 @@
+{
+	"label": "기술",
+	"entries": [
+		{
+			"id": "Academics",
+			"name": "학문 (Academics)"
+		},
+		{
+			"id": "Athletics",
+			"name": "운동 (Athletics)"
+		},
+		{
+			"id": "Battle",
+			"name": "전술 (Battle)"
+		},
+		{
+			"id": "Boating",
+			"name": "항해 (Boating)"
+		},
+		{
+			"id": "Common Knowledge",
+			"name": "상식 (Common Knowledge)"
+		},
+		{
+			"id": "Driving",
+			"name": "운전 (Driving)"
+		},
+		{
+			"id": "Electronics",
+			"name": "전자공학 (Electronics)"
+		},
+		{
+			"id": "Faith",
+			"name": "신앙 (Faith)"
+		},
+		{
+			"id": "Fighting",
+			"name": "격투 (Fighting)"
+		},
+		{
+			"id": "Focus",
+			"name": "집중 (Focus)"
+		},
+		{
+			"id": "Gambling",
+			"name": "도박 (Gambling)"
+		},
+		{
+			"id": "Hacking",
+			"name": "해킹 (Hacking)"
+		},
+		{
+			"id": "Healing",
+			"name": "치료 (Healing)"
+		},
+		{
+			"id": "Intimidation",
+			"name": "협박 (Intimidation)"
+		},
+		{
+			"id": "Language",
+			"name": "언어 (Language)"
+		},
+		{
+			"id": "Notice",
+			"name": "주의력 (Notice)"
+		},
+		{
+			"id": "Occult",
+			"name": "오컬트 (Occult)"
+		},
+		{
+			"id": "Performance",
+			"name": "공연 (Performance)"
+		},
+		{
+			"id": "Persuasion",
+			"name": "설득 (Persuasion)"
+		},
+		{
+			"id": "Piloting",
+			"name": "조종 (Piloting)"
+		},
+		{
+			"id": "Psionics",
+			"name": "초능력 (Psionics)"
+		},
+		{
+			"id": "Repair",
+			"name": "수리 (Repair)"
+		},
+		{
+			"id": "Research",
+			"name": "조사 (Research)"
+		},
+		{
+			"id": "Riding",
+			"name": "기승 (Riding)"
+		},
+		{
+			"id": "Science",
+			"name": "과학 (Science)"
+		},
+		{
+			"id": "Shooting",
+			"name": "사격 (Shooting)"
+		},
+		{
+			"id": "Spellcasting",
+			"name": "주문 (Spellcasting)"
+		},
+		{
+			"id": "Stealth",
+			"name": "은신 (Stealth)"
+		},
+		{
+			"id": "Survival",
+			"name": "생존 (Survival)"
+		},
+		{
+			"id": "Taunt",
+			"name": "조롱 (Taunt)"
+		},
+		{
+			"id": "Thievery",
+			"name": "도둑질 (Thievery)"
+		},
+		{
+			"id": "Untrained",
+			"name": "미숙 (Untrained)"
+		},
+		{
+			"id": "Weird Science",
+			"name": "괴과학 (Weird Science)"
+		}
+	]
+}

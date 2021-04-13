@@ -1,0 +1,25 @@
+{
+	"name": "swadekr",
+	"title": "Translation: Korean [Savage Worlds Adventure Edition]",
+	"description": "<p>새비지월드 한글</p>",
+	"version": "1.0.0",
+	"minimumCoreVersion" : "0.6.0",
+	"compatibleCoreVersion": "1.0.0",
+	"author": "mrkb",
+	"esmodules": [
+	"babele-register.js"
+	],
+	"scripts": [],
+	"styles": ["style.css"],
+	"packs": [],
+	"languages": [
+	{
+      "lang": "ko",
+      "name": "한국어(Korean)",
+      "path": "ko.json"
+    }
+	],
+	"url": "https://github.com/MaronKB/13thagekr",
+	"manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
+	"download": "https://github.com/MaronKB/13thagekr/archive/master.zip"
+}
