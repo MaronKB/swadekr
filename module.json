@@ -19,7 +19,7 @@
       "path": "ko.json"
     }
 	],
-	"url": "https://github.com/MaronKB/13thagekr",
-	"manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
-	"download": "https://github.com/MaronKB/13thagekr/archive/master.zip"
+	"url": "https://github.com/MaronKB/swadekr",
+	"manifest": "https://raw.githubusercontent.com/MaronKB/swadekr/main/module.json",
+	"download": "https://github.com/MaronKB/swadekr/archive/main.zip"
 }
