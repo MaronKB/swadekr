@@ -55,7 +55,7 @@
 		},
 		{
 			"id": "Curious",
-			"name": "궁금증 (Curious)"
+			"name": "호기심쟁이 (Curious)"
 		},
 		{
 			"id": "Death Wish",
@@ -63,7 +63,7 @@
 		},
 		{
 			"id": "Delusional",
-			"name": "망상증 (Delusional)"
+			"name": "음모론자 (Delusional)"
 		},
 		{
 			"id": "Doubting Thomas",
@@ -75,15 +75,15 @@
 		},
 		{
 			"id": "Elderly",
-			"name": "늙음 (Elderly)"
+			"name": "늙은이 (Elderly)"
 		},
 		{
 			"id": "Enemy",
-			"name": "적대적 (Enemy)"
+			"name": "숙적 (Enemy)"
 		},
 		{
 			"id": "Greedy",
-			"name": "탐욕 (Greedy)"
+			"name": "욕심쟁이 (Greedy)"
 		},
 		{
 			"id": "Habit",
@@ -91,7 +91,7 @@
 		},
 		{
 			"id": "Hard of Hearing",
-			"name": "청각장애 (Hard of Hearing)"
+			"name": "난청 (Hard of Hearing)"
 		},
 		{
 			"id": "Heroic",
@@ -119,11 +119,11 @@
 		},
 		{
 			"id": "Mean",
-			"name": "째째함 (Mean)"
+			"name": "소인배 (Mean)"
 		},
 		{
 			"id": "Mild Mannered",
-			"name": "온순함 (Mild Mannered)"
+			"name": "순댕이 (Mild Mannered)"
 		},
 		{
 			"id": "Mute",
@@ -143,7 +143,7 @@
 		},
 		{
 			"id": "One Eye",
-			"name": "외눈 (One Eye)"
+			"name": "척안 (One Eye)"
 		},
 		{
 			"id": "Outsider",
@@ -159,7 +159,7 @@
 		},
 		{
 			"id": "Phobia",
-			"name": "혐오자 (Phobia)"
+			"name": "공포증 (Phobia)"
 		},
 		{
 			"id": "Poverty",
@@ -183,7 +183,7 @@
 		},
 		{
 			"id": "Slow",
-			"name": "굼뜸 (Slow)"
+			"name": "둔중 (Slow)"
 		},
 		{
 			"id": "Small",
@@ -211,7 +211,7 @@
 		},
 		{
 			"id": "Vengeful",
-			"name": "복수극 (Vengeful)"
+			"name": "복수귀 (Vengeful)"
 		},
 		{
 			"id": "Vow",
@@ -219,7 +219,7 @@
 		},
 		{
 			"id": "Wanted",
-			"name": "지명수배 (Wanted)"
+			"name": "지명수배자 (Wanted)"
 		},
 		{
 			"id": "Yellow",
@@ -227,7 +227,7 @@
 		},
 		{
 			"id": "Young",
-			"name": "어림 (Young)"
+			"name": "어린이 (Young)"
 		}
 	]
 }

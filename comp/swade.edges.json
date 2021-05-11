@@ -77,7 +77,7 @@
 		},
 		{
 			"id": "Bolster",
-			"name": "개선책 (Bolster)",
+			"name": "복돋움 (Bolster)",
 			"req": "초보자, 정신력 d8+"
 		},
 		{
@@ -97,7 +97,7 @@
 		},
 		{
 			"id": "Bruiser",
-			"name": "떡대 (Bruiser)",
+			"name": "투사 (Bruiser)",
 			"req": "숙련자, 싸움꾼 (Brawler)"
 		},
 		{
@@ -142,13 +142,13 @@
 		},
 		{
 			"id": "Command",
-			"name": "지휘관 (Command)",
+			"name": "지휘 (Command)",
 			"req": "초보자, 지능 d6+"
 		},
 		{
 			"id": "Command Presence",
-			"name": "전술지휘관 (Command Presence)",
-			"req": "숙련자, 지휘관 (Command)"
+			"name": "전술지휘 (Command Presence)",
+			"req": "숙련자, 지휘 (Command)"
 		},
 		{
 			"id": "Common Bond",
@@ -197,8 +197,8 @@
 		},
 		{
 			"id": "Expert",
-			"name": "전문가 (Expert)",
-			"req": "전설급, 대상 특기에 대한 전문성 (Professional)"
+			"name": "석사 (Expert)",
+			"req": "전설급, 대상 특기에 대한 학사 (Professional)"
 		},
 		{
 			"id": "Extra Effort",
@@ -233,7 +233,7 @@
 		{
 			"id": "Fervor",
 			"name": "열정 (Fervor)",
-			"req": "베테랑, 정신력 d8+, 지휘관 (Command)"
+			"req": "베테랑, 정신력 d8+, 지휘 (Command)"
 		},
 		{
 			"id": "Filthy Rich",
@@ -252,7 +252,7 @@
 		},
 		{
 			"id": "Followers",
-			"name": "추종자 (Followers)",
+			"name": "팔로워 (Followers)",
 			"req": "와일드카드, 전설급"
 		},
 		{
@@ -267,8 +267,8 @@
 		},
 		{
 			"id": "Gadgeteer",
-			"name": "기계공 (Gadgeteer)",
-			"req": "숙련자, 마도 배경:괴과학 (Arcane Background:Weird Science) d6+"
+			"name": "땜장이 (Gadgeteer)",
+			"req": "숙련자, 마도 배경:괴과학 (Arcane Background:Weird Science) 괴과학 (Weird Science) d6+"
 		},
 		{
 			"id": "Giant Killer",
@@ -298,7 +298,7 @@
 		{
 			"id": "Hold The Line!",
 			"name": "전열을 유지하라! (Hold The Line!)",
-			"req": "숙련자, 지능 d8+, 지휘관 (Command)"
+			"req": "숙련자, 지능 d8+, 지휘 (Command)"
 		},
 		{
 			"id": "Humiliate",
@@ -378,17 +378,17 @@
 		{
 			"id": "Inspire",
 			"name": "격려 (Inspire)",
-			"req": "숙련자, 지휘관 (Command)"
+			"req": "숙련자, 지휘 (Command)"
 		},
 		{
 			"id": "Investigator",
 			"name": "탐정 (Investigator)",
-			"req": "초보자, 지능 d8+, 조사 (Research)"
+			"req": "초보자, 지능 d8+, 조사 (Research) d8+"
 		},
 		{
 			"id": "Iron Jaw",
 			"name": "강철 턱 (Iron Jaw)",
-			"req": "초보자, 건강d8+"
+			"req": "초보자, 건강 d8+"
 		},
 		{
 			"id": "Iron Will",
@@ -442,12 +442,12 @@
 		},
 		{
 			"id": "Master",
-			"name": "달인 (Master)",
-			"req": "와일드카드, 전설급, 대상 특기에 대한 전문가 (Expert)"
+			"name": "박사 (Master)",
+			"req": "와일드카드, 전설급, 대상 특기에 대한 석사 (Expert)"
 		},
 		{
 			"id": "Master of Arms",
-			"name": "무장의 달인 (Master of Arms)",
+			"name": "무구의 달인 (Master of Arms)",
 			"req": "전설급, 무기의 달인 (Weapon Master)"
 		},
 		{
@@ -462,7 +462,7 @@
 		},
 		{
 			"id": "Menacing",
-			"name": "위협적 (Menacing)",
+			"name": "흉악함 (Menacing)",
 			"req": "초보자, 다음 단점 중 하나: 유혈광 (Bloodthirsty), 째째함 (Mean), 무자비 (Ruthless)"
 		},
 		{
@@ -482,8 +482,8 @@
 		},
 		{
 			"id": "Natural Leader",
-			"name": "천성 지휘관 (Natural Leader)",
-			"req": "숙련자, 정신력 d8+ 지휘관 (Command)"
+			"name": "천성 지도자 (Natural Leader)",
+			"req": "숙련자, 정신력 d8+ 지휘 (Command)"
 		},
 		{
 			"id": "Nerves of Steel",
@@ -512,7 +512,7 @@
 		},
 		{
 			"id": "Professional",
-			"name": "전문성 (Professional)",
+			"name": "학사 (Professional)",
 			"req": "전설급, 대상 특기의 최대 주사위"
 		},
 		{
@@ -608,7 +608,7 @@
 		{
 			"id": "Tactician",
 			"name": "책사 (Tactician)",
-			"req": "숙련자, 지능 d8+, 지휘관 (Command), 전술 (Battle) d6+"
+			"req": "숙련자, 지능 d8+, 지휘 (Command), 전술 (Battle) d6+"
 		},
 		{
 			"id": "Thief",
@@ -617,13 +617,13 @@
 		},
 		{
 			"id": "Tough As Nails",
-			"name": "목석 같은 끈질김 (Tough As Nails)",
+			"name": "목석한 (Tough As Nails)",
 			"req": "전설급, 건강 d8+"
 		},
 		{
 			"id": "Tougher Than Nails",
-			"name": "목석 이상의 질김 (Tougher Than Nails)",
-			"req": "전설급, 목석 같은 끈질김 (Tough As Nails), 건강 d12+"
+			"name": "돌부처 (Tougher Than Nails)",
+			"req": "전설급, 목석한 (Tough As Nails), 건강 d12+"
 		},
 		{
 			"id": "Trademark Weapon",
