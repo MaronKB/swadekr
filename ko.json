@@ -1,302 +1,1459 @@
 {
-  "SWADE.CommunityCharSheet": "레거시 캐릭터 시트",
-  "SWADE.CommunityNPCSheet": "커뮤니티 NPC 시트",
-  "SWADE.CommunityVicSheet": "커뮤니티 탈것 시트",
-  "SWADE.CommunityItemSheet": "커뮤니티 아이템 시트",
-  "SWADE.Expand": "확장",
-  "SWADE.OfficialSheet": "피나클 공식 새비지 월드 시트",
-  "SWADE.ModHint": "수정자에 + 나 - 가 포함될 수 있도록 하십시오.",
-  "ACTOR.TypeCharacter": "플레이어 캐릭터",
-  "ACTOR.TypeNpc": "NPC",
-  "ACTOR.TypeVehicle": "탈것",
-  "ITEM.TypeWeapon": "무기",
-  "ITEM.TypeArmor": "방어구",
-  "ITEM.TypeShield": "방패",
-  "ITEM.TypeGear": "장비",
-  "ITEM.TypeEdge": "장점",
-  "ITEM.TypeHindrance": "단점",
-  "ITEM.TypeSkill": "기술",
-  "ITEM.TypePower": "이능",
-  "ITEM.TypeAbility": "능력",
-  "SWADE.Name": "이름",
-  "SWADE.Tough": "맷집",
-  "SWADE.Race": "종족",
-  "SWADE.Pace": "속도",
-  "SWADE.Running": "질주",
-  "SWADE.RunningDie": "질주 주사위",
-  "SWADE.RollRun": "질주하기",
-  "SWADE.Adv": "성장",
-  "SWADE.Rank": "단계",
-  "SWADE.Inv": "장비",
-  "SWADE.Summary": "특기",
-  "SWADE.Pow": "이능",
-  "SWADE.WildCard": "와일드카드",
-  "SWADE.Extra": "기타",
-  "SWADE.Bennies": "베니",
-  "SWADE.TraitMod": "특기 조정",
-  "SWADE.SkillTest": "기술 판정",
-  "SWADE.AttributeTest": "능력치 판정",
-  "SWADE.Attributes": "능력치",
-  "SWADE.Derived": "부가 수치",
-  "SWADE.AttrAgi": "민첩성",
-  "SWADE.AttrSma": "지능",
-  "SWADE.AnimalSmarts": "동물 지능",
-  "SWADE.AttrSpr": "정신력",
-  "SWADE.AttrStr": "근력",
-  "SWADE.AttrVig": "건강",
-  "SWADE.Tweaks": "Tweaks",
-  "SWADE.AttrAgiShort": "민",
-  "SWADE.AttrSmaShort": "지",
-  "SWADE.AttrSprShort": "정",
-  "SWADE.AttrStrShort": "근",
-  "SWADE.AttrVigShort": "건",
-  "SWADE.Skills": "기술",
-  "SWADE.Unskilled": "미숙",
-  "SWADE.LinkAttr": "연관 능력치",
-  "SWADE.Die": "주사위",
-  "SWADE.WildDie": "와일드 다이스",
-  "SWADE.Mod": "수정치",
-  "SWADE.BenniesSpend": "베니 사용",
-  "SWADE.BenniesGive": "베니 지급",
-  "SWADE.BenniesRefresh": "베니 초기화",
-  "SWADE.AllBenniesRefresh": "모든 베니 초기화",
-  "SWADE.BenniesRefreshMessage": "베니가 초기화되었습니다!",
-  "SWADE.BenniesRefreshAllMessage": "모든 베니가 초기화되었습니다!",
-  "SWADE.BenniesGMRefreshMessage": "마스터 베니가 초기화되었습니다!",
-  "SWADE.BenniesAddMessage": "가 베니를 받았습니다!",
-  "SWADE.BenniesGMAddMessage": "가 베니를 얻었습니다!",
-  "SWADE.BenniesSpendMessage": "가 베니를 사용했습니다!",
-  "SWADE.BenniesMax": "베니 초기화",
-  "SWADE.EditSkill": "기술 편집",
-  "SWADE.EdEdge": "장점 편집",
-  "SWADE.EdHind": "단점 편집",
-  "SWADE.Ed": "편집",
-  "SWADE.Del": "삭제",
-  "SWADE.Arcane": "마도",
-  "SWADE.All": "모두",
-  "SWADE.HasPowers": "이능 소지",
-  "SWADE.Weapons": "무기",
-  "SWADE.MeleeWeapons": "근접 무기",
-  "SWADE.RangedWeapons": "원거리 무기",
-  "SWADE.Armors": "방어구",
-  "SWADE.Shields": "방패",
-  "SWADE.Biography": "일대기",
-  "SWADE.Shaken": "충격",
-  "SWADE.Distr": "어지러움",
-  "SWADE.Vuln": "취약함",
-  "SWADE.Stunned": "기절",
-  "SWADE.Entangled": "고정됨",
-  "SWADE.Bound": "속박됨",
-  "SWADE.Aiming": "조준",
-  "SWADE.Berserk": "광화",
-  "SWADE.Defending": "방어",
-  "SWADE.Flying": "비행",
-  "SWADE.Holding": "잡음",
-  "SWADE.Frightened": "겁먹음",
-  "SWADE.Encumbered": "운반됨",
-  "SWADE.Prone": "엎드림",
-  "SWADE.BleedingOut": "출혈",
-  "SWADE.Diseased": "감염",
-  "SWADE.HeartAttack": "심장마비",
-  "SWADE.OnFire": "불붙음",
-  "SWADE.Poisoned": "중독됨",
-  "SWADE.CoverShield": "보호 - 방패",
-  "SWADE.Reach": "공격범위",
-  "SWADE.Torch": "횃불",
-  "SWADE.Invisible": "투명",
-  "SWADE.Smite": "강타",
-  "SWADE.Armor": "방어력",
-  "SWADE.Protection": "보호",
-  "SWADE.Dmg": "피해",
-  "SWADE.DmgOver": "피해 재적용",
-  "SWADE.Rng": "사거리",
-  "SWADE.Ap": "방관",
-  "SWADE.APLong": "방어구 관통력",
-  "SWADE.RoF": "연사력",
-  "SWADE.Mag": "장탄수",
-  "SWADE.Parry": "쳐내기",
-  "SWADE.Cover": "커버",
-  "SWADE.Notes": "메모",
-  "SWADE.ActionsEffects": "액션 & 이펙트",
-  "SWADE.Actions": "액션",
-  "SWADE.DmgModUni": "피해 수정치 (공통)",
-  "SWADE.SkillModUni": "기술 수정치 (공통)",
-  "SWADE.ShotsUsed": "소모 장탄수",
-  "SWADE.NaturalArmor": "기본 장갑",
-  "SWADE.HitLocations": "적중 부위",
-  "SWADE.Head": "머리",
-  "SWADE.Torso": "몸통",
-  "SWADE.Arms": "팔",
-  "SWADE.Legs": "다리",
-  "SWADE.MinStrLong": "최소 근력",
-  "SWADE.MinStr": "최소 근력",
-  "SWADE.MinStrShort": "근력",
-  "SWADE.Desc": "설명",
-  "SWADE.Special": "특수 어빌리티",
-  "SWADE.Details": "자세히",
-  "SWADE.Equippable": "장비 가능",
-  "SWADE.Misc": "기타",
-  "SWADE.QuickAccess": "즐겨찾기",
-  "SWADE.Effects": "발동중인 효과",
-  "SWADE.Hindrances": "단점",
-  "SWADE.MajHind": "심각한 단점",
-  "SWADE.Major": "(심각함)",
-  "SWADE.Minor": "(사소함)",
-  "SWADE.Edges": "장점",
-  "SWADE.ArcBack": "마도 배경",
-  "SWADE.Req": "선결조건",
-  "SWADE.Conv": "신념",
-  "SWADE.UseConv": "이 행동에 신념이 따릅니다!",
-  "SWADE.Hesitant": "우유부단",
-  "SWADE.LevelHeaded": "냉정침착",
-  "SWADE.ImprovedLevelHeaded": "냉정침착 향상",
-  "SWADE.AutoCalc": "자동계산",
-  "SWADE.InclArmor": "자동으로 장갑을 포함한 맷집을 계산합니다.",
-  "SWADE.Label": "타이틀",
-  "SWADE.HasMaxValue": "최대값",
-  "SWADE.Enabled": "활성화됨",
-  "SWADE.Currency": "현재",
-  "SWADE.CarryWeight": "짐",
-  "SWADE.Eqd": "장비",
-  "SWADE.Equipped": "장비중",
-  "SWADE.Unequipped": "장비 해제중",
-  "SWADE.Quantity": "양",
-  "SWADE.Weight": "무게",
-  "SWADE.Price": "비용",
-  "SWADE.PP": "이능 점수",
-  "SWADE.PPShort": "이능점",
-  "SWADE.CurPP": "현재 이능점",
-  "SWADE.MaxPP": "최대 이능점",
-  "SWADE.Dur": "지속시간",
-  "SWADE.Trap": "함정",
-  "SWADE.Wound": "부상",
-  "SWADE.Wounds": "부상",
-  "SWADE.WoundsMax": "최대 부상",
-  "SWADE.Fatigue": "피로",
-  "SWADE.FatigueMax": "최대 피로",
-  "SWADE.Incap": "무력화됨",
-  "SWADE.Init": "우선권",
-  "SWADE.InitDraw": "(이)가 우선권을 뽑습니다!",
-  "SWADE.JokersWild": "조커의 와일드",
-  "SWADE.General": "일반",
-  "SWADE.Addi": "추가",
-  "SWADE.Status": "능력치",
-  "SWADE.Handling": "조종",
-  "SWADE.Topspeed": "최대속도",
-  "SWADE.OutOfControl": "통제불능",
-  "SWADE.Wrecked": "부서짐",
-  "SWADE.Item": "아이템",
-  "SWADE.Cargo": "수하물",
-  "SWADE.MaxCargo": "수하물 최대중량",
-  "SWADE.CargoWeight": "수하물 중량",
-  "SWADE.Mods": "개조",
-  "SWADE.ModSlots": "개조 칸",
-  "SWADE.MaxMods": "최대 개조",
-  "SWADE.Operator": "오퍼레이터",
-  "SWADE.ManCheck": "운용 판정",
-  "SWADE.AltSkill": "대체 기술",
-  "SWADE.Class": "분류",
-  "SWADE.Vehicular": "탑승형 무기",
-  "SWADE.VehicleMod": "차량 개조",
-  "SWADE.OpSkill": "오퍼레이션 기술",
-  "SWADE.CardSound": "카드 사운드",
-  "SWADE.CardSoundDesc": "우선권을 나눠줄 때 짧은 카드 사운드를 재생합니다.",
-  "SWADE.AutoInit": "자동 우선권",
-  "SWADE.AutoInitDesc": "매 라운드마다 자동으로 액션 카드를 뽑습니다.",
-  "SWADE.CreateInitChat": "우선권 시 채팅 메시지를 보내기",
-  "SWADE.HideWC": "NPC 와일드카드 숨기기",
-  "SWADE.HideWCDesc": "어떤 NPC가 와일드카드인 지 플레이어들에게 공개하지 않습니다.",
-  "SWADE.EnableConv": "신념 활성화",
-  "SWADE.EnableConvDesc": "신념 룰을 활성화합니다",
-  "SWADE.EnableWoundPace": "속조와 부상을 동기화합니다",
-  "SWADE.EnableWoundPaceDesc": "활성화 시, 속도가 자동으로 부상에 영향을 받습니다",
-  "SWADE.AutoLink": "자동으로 와일드카드 연결",
-  "SWADE.AutoLinkDesc": "활성화 시, 엑스트라와 와일드카드를 전환할 때 NPC 와일드카드는 연결된 토큰을 가지게 됩니다",
-  "SWADE.GmBennies": "GM 베니",
-  "SWADE.GmBenniesDesc": "초기화 때마다 GM이 얼마만큼의 베니를 받을 지 결정합니다",
-  "SWADE.EnableBennyNotify": "베니 알림",
-  "SWADE.EnableBennyNotifyDesc": "베니를 받거나, 사용하거나, 초기화했을 때 채팅 메시지를 전송합니다",
-  "SWADE.VehicleMods": "차량 개조",
-  "SWADE.VehicleModsDesc": "차량이 개조 칸을 사용합니다",
-  "SWADE.VehicleEdges": "차량 장점",
-  "SWADE.VehicleEdgesDesc": "차량이 장단점을 사용합니다",
-  "SWADE.ShowBennyAnimation": "베니 애니메이션 사용",
-  "SWADE.ShowBennyAnimationDesc": "베니 사용 시 애니메이션을 재생합니다. Dice so Nice! 가 설치되어 있을 때만 작동합니다.",
-  "SWADE.WildDiePreset": "와일드 다이스 테마",
-  "SWADE.WildDiePresetDesc": "와일드 다이스에 DSN테마를 적용합니다. '커스텀'을 선택해 직접 만들거나 와일드 다이스가 다르게 보이길 원하지 않는 경우 '없음'을 선택할 수 있습니다. 직접 만든 와일드 다이스는 자신에게만 그렇게 보인다는 것에 유의하십시오. 다른 플레이어들에게는 다르게 보입니다.",
-  "SWADE.AmmoManagement": "탄약 관리",
-  "SWADE.AmmoManagementDesc": "활성화되어있을 경우, 액션이 무기 탄창의 탄약을 감소시킵니다. 아이템 카드에 재장전 버튼이 생기고 사용 가능한 탄약이 충분하지 않을 경우 공격 판정을 할 수 없습니다.",
-  "SWADE.PCAmmoFromInventory": "PC 인벤토리의 탄약 사용",
-  "SWADE.PCAmmoFromInventoryDesc": "해당 옵션을 활성화하면 인벤토리 내의 '장비' 아이템을 탄약으로 사용하도록 설정할 수 있으며, 재장전 시 소비됩니다.",
-  "SWADE.NPCAmmoFromInventory": "NPC 인벤토리의 탄약 사용",
-  "SWADE.VehicleAmmoFromInventory": "차량 인벤토리의 탄약 사용",
-  "SWADE.SettingConf": "환경 설정",
-  "SWADE.SettingConfLabel": "환경 설정 열기",
-  "SWADE.SettingConfDesc": "플레이하고자 하는 환경에 맞게 시스템을 조정합니다.",
-  "SWADE.DiceConf": "주사위 설정",
-  "SWADE.DiceConfDesc": "SWADE/Dice So Nice 작동 환경을 설정합니다.",
-  "SWADE.DiceConfLabel": "주사위 설정 열기",
-  "SWADE.Formula": "계산식",
-  "SWADE.SitMod": "상황별 수정자",
-  "SWADE.RollMode": "굴림 모드",
-  "SWADE.RollExample": "예) +1d6x 또는 -2",
-  "SWADE.Roll": "굴리기",
-  "SWADE.RollRaise": "레이즈",
-  "SWADE.GroupRoll": "단체 굴림",
-  "SWADE.Ok": "확인",
-  "SWADE.Cancel": "취소",
-  "SWADE.Redraw": "다시 뽑기",
-  "SWADE.Add": "추가",
-  "SWADE.ConfigInit": "우선권 설정",
-  "SWADE.IgnWounds": "부상 무시",
-  "SWADE.Size": "크기",
-  "SWADE.Scale": "스케일",
-  "SWADE.PickACard": "카드 집기",
-  "SWADE.NoCardsLeft": "덱에 뽑을 수 있는 카드가 충분하지 않습니다!",
-  "SWADE.OldCard": "구형 카드",
-  "SWADE.ActionCard": "액션 카드",
-  "SWADE.ConvictionActive": "신념 활성화",
-  "SWADE.ConvictionActivate": "이 행동에 신념이 따릅니다!",
-  "SWADE.ConvictionExtend": "신념을 확장하시겠습니까?",
-  "SWADE.ConvictionEnd": "신념이 흔들리고 있습니다...",
-  "SWADE.NoBennies": "베니가 충분하지 않습니다!",
-  "SWADE.SBT": "소형 폭발 범위판",
-  "SWADE.MBT": "중형 폭발 범위판",
-  "SWADE.LBT": "대형 폭발 범위판",
-  "SWADE.Cone": "부채꼴 범위판",
-  "SWADE.GM": "게임 마스터",
-  "SWADE.Vehicles": "차량",
-  "SWADE.AddStats": "추가 능력치",
-  "SWADE.Actors": "액터",
-  "SWADE.Items": "아이템",
-  "SWADE.Max": "최대",
-  "SWADE.Curr": "현재",
-  "SWADE.DSNNone": "- 없음 -",
-  "SWADE.Reload": "재장전",
-  "SWADE.Refresh": "해당 카드 초기화",
-  "SWADE.Ammo": "탄약",
-  "SWADE.ReloadUnneeded": "이 무기는 이미 재장전되어있습니다.",
-  "SWADE.ReloadSuccess": "무기가 성공적으로 재장전되었습니다.",
-  "SWADE.NotEnoughAmmo": "이 액션을 실행하기에 충분한 탄약이 없습니다!",
-  "SWADE.NotEnoughAmmoToReload": "완충되기에 필요한 탄약이 부족합니다.",
-  "SWADE.AutoReload": "재장전 액션이 필요 없음",
-  "SWADE.NoAmmoSet": "탄약 묶음이 없습니다",
-  "SWADE.Trapping": "Trappings",
-  "SWADE.AddBenny": "베니 추가",
-  "SWADE.CurrentBennies": "현재 베니",
-  "SWADE.RerollWithBenny": "베니로 재굴림하기",
-  "SWADE.FreeReroll": "공짜 재굴림",
-  "SWADE.HideNpcItemChatCards": "NPC 아이템 채팅 카드 숨기기",
-  "SWADE.HideNpcItemChatCardsDesc": "활성화되면, NPC 아이템 채팅 카드가 모두가 볼 수 있도록 게시되는 대신 모든 GM에게 귓속말로 보내집니다.",
-  "SWADE.JokersWildDesc": "플레이어 중 누군가가 조커를 뽑았을 때 모든 플레이어에게 베니를 지급합니다.",
-  "SWADE.ParryBase": "쳐내기 베이스 기술",
-  "SWADE.ParryBaseDesc": "캐릭터의 쳐내기를 계산할 때 사용할 기술의 이름",
-  "SWADE.AutoCalcParry": "방어를 포함한 쳐내기를 자동으로 계산",
-  "SWADE.Subtype": "하위 분류",
-  "SWADE.SpecialAbility": "특수 능력",
-  "SWADE.SpecialAbilities": "특수 능력",
-  "SWADE.RacialAbilities": "종족 능력",
-  "SWADE.About": "상세",
-  "SWADE.EdgesHindrances": "장점 & 단점",
-  "SWADE.GrantsPowers": "이능 부여"
+  "SWADE": {
+    "3DBennies": "3D 베니",
+    "APLong": "방어구 관통력",
+    "About": "상세",
+    "ActAfterCurrentCombatant": "현재 전투원의 턴 이후 행동",
+    "ActBeforeCurrentCombatant": "즉시 행동",
+    "ActionCard": "액션 카드",
+    "ActionCardEditor": "액션 카드 수정",
+    "ActionDeckPresetDark": "액션 덱 (어두움)",
+    "ActionDeckPresetLight": "액션 덱 (밝음)",
+    "ActionDeckReset": "액션 덱 다시 섞기",
+    "ActionDeckResetNotification": "액션 덱이 다시 섞였습니다",
+    "ActionDmgMod": "액션 피해 수정치",
+    "ActionTraitMod": "액션 특기 수정치",
+    "Actions": "액션",
+    "ActionsEffects": "액션 & 효과",
+    "ActivateArcaneDevice": "장치 활성화",
+    "ActiveEffects": {
+      "Add": "액티브 이펙트 추가",
+      "Source": "원전",
+      "ResetDuration": "지속 시간 초기화",
+      "AddGuided": "이펙트 마법사 열기",
+      "AddUnguided": "빈 이펙트 추가"
+    },
+    "Actors": "액터",
+    "Add": "추가",
+    "AddAction": "액션 추가",
+    "AddAdvance": "성장 추가",
+    "AddBenny": "베니 추가",
+    "AddOrReplaceActions": {
+      "Title": "액션 추가 또는 대체",
+      "Add": "새로 추가",
+      "Replace": "기존 액션 대체",
+      "Content": "<p>{type} <strong>{source}</strong> 을/를 새 액션 또는 기존 액션을 대체하여 추가하시겠습니까?</p>"
+    },
+    "AddPPDesc": "사용 가능한 PP에 PP 코스트 추가",
+    "AddStats": "추가 능력치",
+    "AddTokenFollowers": "선택한 토큰을 추종자로 추가",
+    "Addi": "추가",
+    "AdditionalStats": {
+      "SelectHint": "세미콜론으로 구분하여 입력합니다.",
+      "Key": "능력치 키",
+      "Label": "라벨",
+      "Type": "타입",
+      "HasMaxValue": "최대 값이 정해짐",
+      "Current": "현재 {stat}",
+      "Max": "최대 {stat}",
+      "KeyErr": "추가 능력치 키 {invalid}가 부적합하여 {key}로 변경되었습니다."
+    },
+    "Adv": "성장",
+    "Advances": {
+      "EditorTitle": "성장 수정",
+      "Toggle": "성장 예정 상태 전환",
+      "Delete": "성장 삭제",
+      "Planned": "예정됨",
+      "Modes": {
+        "Legacy": "레거시",
+        "Expanded": "확장"
+      },
+      "Types": {
+        "Edge": "새 장점",
+        "SingleSkill": "단일 기술 상승",
+        "TwoSkills": "두 기술 상승",
+        "Attribute": "능력치 상승",
+        "Hindrance": "단점 약화"
+      },
+      "Number": "성장 순서"
+    },
+    "Aiming": "조준",
+    "All": "모두",
+    "AllBenniesRefresh": "베니 일괄 초기화",
+    "AltSkill": "대체 기술",
+    "AltTrait": "액션 특기",
+    "AmbushAssistant": {
+      "OnHold": "대기 중",
+      "NormalDraw": "일반 뽑기",
+      "NoTurn": "턴 없음",
+      "Title": "매복 도우미",
+      "Hint": "전투원을 드래그 앤 드롭 하여 기습 라운드를 설정합니다.",
+      "Unassigned": "미할당"
+    },
+    "Ammo": "탄약",
+    "AncestralAbilities": "혈통 능력",
+    "Ancestry": "혈통",
+    "AnimalSmarts": "동물 지능",
+    "AnimalSmartsMarker": "동",
+    "Ap": "방관",
+    "Appearance": "외모",
+    "ArcBack": "마도 배경",
+    "Arcane": "마도",
+    "ArcaneDevice": "마도 장치",
+    "ArcaneSkill": "마도 기술",
+    "Archetype": "아키타입",
+    "ArchetypeAbilities": "아키타입 능력",
+    "Armor": "방어구",
+    "Armors": "방어구",
+    "Arms": "팔",
+    "AttrAgi": "민첩성",
+    "AttrAgiShort": "민",
+    "AttrSma": "지능",
+    "AttrSmaShort": "지",
+    "AttrSpr": "정신력",
+    "AttrSprShort": "정",
+    "AttrStr": "근력",
+    "AttrStrShort": "근",
+    "AttrVig": "건강",
+    "AttrVigShort": "건",
+    "Attribute": "능력치",
+    "AttributeManager": {
+      "Title": "{name} 능력치 관리",
+      "Open": "능력치 관리"
+    },
+    "AttributeTest": "능력치 판정",
+    "Attributes": "능력치",
+    "Aura": {
+      "Visibility": {
+        "Label": "표시 대상",
+        "Hint": "이 오라를 볼 수 있는 토큰을 선택합니다. 옵저버 이상의 권한이 있는 토큰의 모든 오라를 볼 수 있습니다."
+      }
+    },
+    "Auras": {
+      "TabHeader": "오라맨서",
+      "Enabled": "활성화",
+      "Color": "색상",
+      "Range": "오라 반경",
+      "Alpha": "오라 투명도",
+      "WallConstraints": {
+        "Label": "벽에 막힘",
+        "Hint": "이 옵션은 오라가 빛을 차단 가능한 벽에 막히는지 통과하는지를 결정합니다."
+      },
+      "UserAura1": "오라 1",
+      "UserAura2": "오라 2"
+    },
+    "AutoCalc": "자동 계산",
+    "AutoCalcParry": "방패를 포함한 막기를 자동으로 계산합니다",
+    "Background": "배경",
+    "BaseDamage": "기본 피해",
+    "BaseDie": "기본 주사위",
+    "BasePace": "기본 속도",
+    "BaseParry": "기본 막기",
+    "Bennies": "베니",
+    "BenniesAddMessage": "이/가 베니를 받았습니다!",
+    "BenniesCount": "베니 {count}장",
+    "BenniesGMAddMessage": "이/가 베니를 얻었습니다!",
+    "BenniesGMRefreshMessage": "GM 베니가 초기화되었습니다!",
+    "BenniesGive": "베니 지급",
+    "BenniesMax": "베니 초기화",
+    "BenniesRefresh": "베니 초기화",
+    "BenniesRefreshAllMessage": "모든 베니가 초기화되었습니다!",
+    "BenniesRefreshMessage": "베니가 초기화되었습니다!",
+    "BenniesSpend": "베니 사용",
+    "BenniesSpendGM": "GM 베니 사용",
+    "BenniesSpendMessage": "이/가 베니를 사용했습니다!",
+    "Benny": "베니",
+    "Berserk": "광화",
+    "Biography": "일대기",
+    "BleedingOut": "출혈",
+    "BonusDamage": "보너스 피해",
+    "Bound": "속박",
+    "ButtonReset": "초기화",
+    "ButtonSubmit": "확인",
+    "CalledShot": {
+      "HeadOrVitals": "조준 사격: 머리 또는 치명상",
+      "Hand": "조준 사격: 손",
+      "Limbs": "조준 사격: 사지"
+    },
+    "Cancel": "취소",
+    "CannotAddAncestryToAncestry": "혈통/아키타입에 혈통/아키타입을 추가할 수 없습니다!",
+    "CardDrawMsgSize": {
+      "None": "없음",
+      "Compact": "소형",
+      "Large": "대형"
+    },
+    "CardFace": "카드 면",
+    "CardSuit": "문양",
+    "CardValue": "숫자",
+    "Cards": {
+      "Spades": "스페이드",
+      "Hearts": "하트",
+      "Diamonds": "다이아몬드",
+      "Clubs": "클럽",
+      "Jokers": "조커",
+      "Two": "2",
+      "Three": "3",
+      "Four": "4",
+      "Five": "5",
+      "Six": "6",
+      "Seven": "7",
+      "Eight": "8",
+      "Nine": "9",
+      "Ten": "10",
+      "Jack": "잭",
+      "Queen": "퀸",
+      "King": "킹",
+      "Ace": "에이스",
+      "RedJoker": "적색 조커 / 스페이드 조커",
+      "BlackJoker": "검정 조커 / 하트 조커",
+      "BlueJoker": "파랑 조커 / 다이아몬드 조커",
+      "GreenJoker": "녹색 조커 / 클럽 조커"
+    },
+    "Cargo": "수하물",
+    "CargoWeight": "수하물 중량",
+    "CarryWeight": "중량",
+    "Category": "아이템 분류",
+    "ChangeBennyWarning": "이 설정을 조정하면 페이지를 새로고침해야 합니다!",
+    "CharacterGoals": "목표",
+    "CharacterSummary": "캐릭터 요약",
+    "CharacterSummaryTypeErr": "{type} 타입 액터에 대해 캐릭터 요약기를 사용할 수 없습니다.",
+    "Characters": "캐릭터",
+    "Charges": "재고",
+    "ChaseCardsCleared": "모든 추적 카드가 장면에서 제거되었습니다.",
+    "ChaseColumns": "행",
+    "ChaseLayout": "레이아웃",
+    "ChaseNoDeck": "덱을 구성해야 합니다!",
+    "ChaseReset": "\"{deck}\" 덱이 초기화되었습니다.",
+    "ChaseRows": "열",
+    "Checkbox": "체크박스",
+    "Class": "분류",
+    "ClearChaseCards": "장면에서 추적 카드 제거",
+    "ClickSuggestions": "[클릭]으로 추천 받기",
+    "ColdBodied": "냉각됨",
+    "Combat": {
+      "StartSurpriseRound": "기습 라운드 시작",
+      "AdvanceRoundTitle": "다음 라운드로?",
+      "AdvanceRoundContent": "다음 라운드로 진행하시겠습니까?",
+      "RevertRoundTitle": "이전 라운드로?",
+      "RevertRoundContent": "이전 라운드로 되돌아가시겠습니까?",
+      "DiscardedCards": "버림패",
+      "Redraw": "카드 다시 뽑기",
+      "RedrawDialog": {
+        "Content": "베니 혹은 공짜로 카드를 다시 뽑습니까?"
+      }
+    },
+    "CommunityCharSheet": "레거시 캐릭터 시트",
+    "CommunityItemSheet": "커뮤니티 아이템 시트",
+    "CommunityNPCSheet": "커뮤니티 NPC 시트",
+    "CommunityVicSheet": "커뮤니티 탈것 시트",
+    "CompendiumTOC": {
+      "Toggle": "컴펜디움 목차 토글",
+      "Dialog": {
+        "Title": "토글 확인",
+        "Content": "변경 사항을 적용하기 위해 Foundry VTT 및 접속 중인 모든 클라이언트가 리로드됩니다. 확인하십시오."
+      },
+      "Header": "컨텐츠"
+    },
+    "ConfigInit": "우선권 설정",
+    "Consumable": {
+      "Use": "사용",
+      "Consumables": "소모품",
+      "NotEnoughCharges": "재고가 없습니다!"
+    },
+    "ConsumableType": {
+      "Label": "부분류",
+      "Regular": "일반"
+    },
+    "Conv": "신념",
+    "ConvictionActivate": "{name}이/가 신념에 따라 행동합니다!",
+    "ConvictionActive": "신념 활성화",
+    "ConvictionEnd": "{name}의 신념이 흔들리고 있습니다.",
+    "ConvictionExtend": "신념을 확장하시겠습니까?",
+    "ConvictionExtendPrompt": "베니를 사용하여 신념을 확장하시겠습니까?",
+    "CopyHtml": "HTML 복사",
+    "CopyMarkdown": "마크다운 복사",
+    "CoreSkill": "코어 기술",
+    "CoreSkills": "코어 기술",
+    "CouldNotFindMacro": "UUID가 {uuid}인 매크로를 찾을 수 없습니다.",
+    "Cover": {
+      "_name": "엄폐",
+      "Shield": "엄폐 - 방패",
+      "Light": "가벼운 엄폐",
+      "Medium": "중간 엄폐",
+      "Heavy": "단단한 엄폐",
+      "Total": "완전한 엄폐"
+    },
+    "Crew": "동료",
+    "CurPP": "현재 이능 점수",
+    "Curr": "현재",
+    "Currency": "재화",
+    "CurrentBennies": "현재 베니",
+    "CustomWildDie": "- 커스텀 와일드 다이스 -",
+    "DSNNone": "- 없음 -",
+    "DamageApplicator": {
+      "ApplyDamage": {
+        "Label": "피해 적용",
+        "Hint": "[클릭]하여 선택한 토큰에 피해를 적용합니다."
+      },
+      "SoakModifier": "흡수 수정치",
+      "WoundsAboutToBeTaken": "<p><strong>{name}</strong>이 <strong>{wounds}</strong>의 부상을 받게 됩니다!</p>",
+      "SoakDialog": {
+        "SoakRoll": "건강 판정으로 흡수",
+        "WoundedTitle": "{name}의 부상 흡수 굴림을 합니까?",
+        "UnwoundedTitle": "{name}의 피해를 조정하여 상태를 확정하시겠습니까?",
+        "WoundedPrompt": "<p>{name}이/가 {wounds}의 부상을 받게 됩니다. 흡수하시겠습니까?</p>",
+        "ShakenPrompt": "<p>{name}은/는 충격을 받게 됩니다.</p>",
+        "UnharmedPrompt": "<p>{name}은/는 무사합니다.</p>",
+        "Benny": "베니를 사용하여 흡수",
+        "GMBenny": "GM 베니를 사용하여 흡수",
+        "Free": "공짜로 흡수",
+        "TakeWounds": "{wounds} 받기",
+        "AdjustDamage": "피해 조정",
+        "ApplyShaken": "충격 상태 적용",
+        "Accept": "승인",
+        "NoVehicleSoak": "탈것에 대한 흡수는 아직 지원하지 않습니다."
+      },
+      "RerollSoakDialog": {
+        "Title": "Reroll to Soak Wounds for {name}?",
+        "Prompt": "<p>{name} is about to take {wounds}. Do you want to reroll the Soak roll?</p>",
+        "PromptCritFail": "<p>{name} is about to take {wounds}. A critical fail is preventing rerolls.</p>",
+        "Benny": "Spend a Benny to Reroll",
+        "GMBenny": "Spend a GM Benny to Reroll",
+        "Free": "Reroll for Free",
+        "TakeWounds": "Take {wounds}"
+      },
+      "AdjustDamagePrompt": "<p>Adjust damage for any abilities and effects {name} might have.</p>",
+      "Result": {
+        "NoSignificantDamage": "<p><strong>{name}</strong> suffers no significant damage.</p>",
+        "SoakedAll": "<p><strong>{name}</strong> Soaked all Wounds and is not Shaken!</p>",
+        "IsShaken": "<p><strong>{name}</strong> is <strong>Shaken</strong>!</p>",
+        "IsShakenWithWounds": "<p><strong>{name}</strong> is <strong>Shaken</strong> with <strong>{wounds}</strong>!</p>",
+        "IsIncapacitated": "<p><strong>{name}</strong> is <strong>Incapacitated!</strong></p>"
+      },
+      "Incapacitation": {
+        "InjuryRoll": "Vigor Roll to resist injury upon incapacitation",
+        "Dies": "<p><strong>{name}</strong> dies from the damage!</p>",
+        "PermanentInjury": "<p><strong>{name}</strong> suffers a permanent injury and is <strong>Bleeding Out!</strong></p>",
+        "PermanentInjuryHND": "<p><strong>{name}</strong> suffers a permanent injury!</p>",
+        "TemporaryInjury": "<p><strong>{name}</strong> suffers an injury that will go away when all Wounds are healed.</p>",
+        "ShortInjury": "<p><strong>{name}</strong> suffers an injury that will go away in 24 hours, or when all Wounds are healed (whichever is sooner).</p>",
+        "TakeFail": "Suffer a permanent injury",
+        "TakeSuccess": "Suffer an injury that goes away when all wounds are healed",
+        "Title": "Reroll injury severity for {name}?",
+        "Prompt": "<p>{name} is about to be injured. Do you want to reroll the Vigor roll?</p>"
+      },
+      "NoInjuryTable": "No Injury Table has been selected. See SWADE Settings Configuration",
+      "NoTargetsSelected": "Please select a target to apply the damage to."
+    },
+    "DeckShuffled": "카드 덱이 자동으로 섞였습니다.",
+    "Defending": "방어",
+    "Del": "삭제",
+    "DeleteEmbeddedActionPrompt": "{action} 액션을 정말 삭제하시겠습니까?",
+    "DeleteEmbeddedPowerPrompt": "{power} 이능을 정말 삭제하시겠습니까?",
+    "Derived": "부가 수치",
+    "Desc": "설명",
+    "DesperateAttack": {
+      "2": "무모한 공격 (2)",
+      "4": "무모한 공격 (4)"
+    },
+    "DestroyOnEmpty": "비었을 시 파괴",
+    "Details": "상세",
+    "DialogConfirmPrompt": "정말입니까?",
+    "DiceConf": "와일드 다이스 설정",
+    "DiceConfDesc": "SWADE/Dice So Nice 통합 설정입니다",
+    "DiceConfLabel": "와일드 다이스 설정 열기",
+    "Die": "주사위",
+    "DieSides": "주사위 면",
+    "DiscardMagazine": "빈 탄창 파기",
+    "Diseased": "감염",
+    "Distr": "어지러움",
+    "Dmg": "피해",
+    "DmgMod": "피해 수정치",
+    "DmgModUni": "피해 수정치",
+    "DmgOver": "액션 피해",
+    "DmgRolls": "피해 굴림",
+    "DocumentLink": "링크",
+    "DocumentTweaks": "트윅",
+    "Draw": "뽑기",
+    "DrawInit": "우선권 뽑기",
+    "Duplicate": "복제",
+    "DuplicateItemsBodyText": "While adding the {type} <strong>{name}</strong> to the Actor {target} the following duplicates (by name and type) have been found. The new items  have been renamed to reflect their source.",
+    "Duplicates": "복제 발견됨",
+    "Dur": "지속 시간",
+    "Ed": "편집",
+    "EdEdge": "장점 편집",
+    "EdHind": "단점 편집",
+    "Edges": "장점",
+    "EdgesHindrances": "장점 & 단점",
+    "EditSkill": "기술 편집",
+    "EffectCallbacks": {
+      "Shaken": {
+        "RollSpirit": "정신력 굴림",
+        "Title": "{name}(으)로부터 충격 제거",
+        "Flavor": "정신력 굴림으로 충격 제거",
+        "UnshakeModifier": "충격 저항 수정치",
+        "Question": "어떻게 하시겠습니까?",
+        "Success": "더 이상 충격 상태가 아닙니다"
+      },
+      "Stunned": {
+        "Title": "건강 굴림으로 기절 제거",
+        "Fail": "기절이 지속됩니다",
+        "Success": "기절이 제거되고 취약을 받습니다",
+        "Raise": "기절이 제거되며 취약을 받지 않습니다",
+        "UnStunModifier": "기절 저항 수정치"
+      },
+      "BleedingOut": {
+        "Title": "건강 굴림으로 출혈 저항",
+        "Fail": "당신은 사망합니다",
+        "Success": "아직은, 버팁니다.",
+        "Raise": "성공적으로 안정화됩니다",
+        "BleedOutModifier": "출혈 수정치",
+        "IgnoreWounds": "출혈 부상 무시"
+      }
+    },
+    "EffectWizard": {
+      "Preview": "미리보기",
+      "Change": "변경",
+      "Mode": "모드",
+      "Value": "값",
+      "Changes": "변경점",
+      "SelectAttribute": "어트리뷰트 선택",
+      "EnterSkill": {
+        "Label": "기술 입력",
+        "Hint": "아무 기술 이름이나 입력하거나 추천 목록에서 선택할 수 있습니다."
+      }
+    },
+    "Effects": "효과",
+    "EffectsPermanent": "지속 효과",
+    "EffectsTemporary": "일시적 효과",
+    "Elan": "Elan",
+    "EmptyAncestralAbilitiesHint": "<strong>Warning:</strong> This feature is being deprecated in favor of Item grants. If you are creating a new {ancestry} or {archetype}, drag & drop Items onto the Properties tab instead. The {ancestry} or {archetype} will add those Items to the Actor when applied.",
+    "Enabled": "활성화됨",
+    "Encumbered": "과적",
+    "EncumbranceSteps": "적재 단계",
+    "Entangled": "고정됨",
+    "Eqd": "장비",
+    "Equip": "장비",
+    "Equippable": "장비 가능",
+    "Equipped": "장비됨",
+    "Expand": "확장",
+    "ExpandDescription": "확장하여 설명 표시",
+    "Expiration": {
+      "TabLabel": "턴 행동",
+      "Description": "<p>효과가 대상의 <em>다음 턴 이후</em>에 만료됩니다.</p>",
+      "Behavior": "만료 행동",
+      "BeginAuto": "턴 개시, 자동",
+      "BeginPrompt": "턴 개시, 수동",
+      "EndAuto": "턴 종료, 자동",
+      "EndPrompt": "턴 종료, 수동",
+      "None": "없음",
+      "LooseTurnOnHold": "대기 중 턴을 잃음",
+      "Remaining": "잔여"
+    },
+    "Extra": "기타",
+    "Fatigue": "피로",
+    "FatigueMax": "최대 피로",
+    "Favorite": "즐겨찾기",
+    "Flying": "비행",
+    "Follow": "{name} 추종하기",
+    "FollowerCount": "추종자 {count}명",
+    "Formula": "수식",
+    "Free": "공짜",
+    "FreeReroll": "공짜 재굴림",
+    "Frightened": "겁먹음",
+    "GM": "게임 마스터",
+    "General": "일반",
+    "GlobalMod": {
+      "Label": "전역 수정치",
+      "Trait": "모든 특기",
+      "Agility": "민첩성 및 연결된 기술",
+      "Smarts": "지능 및 연결된 기술",
+      "Spirit": "정신력 및 연결된 기술",
+      "Strength": "근력 및 연결된 기술",
+      "Vigor": "건강 및 연결된 기술",
+      "Attack": "모든 공격",
+      "Damage": "모든 피해",
+      "AP": "모든 방어구 관통력"
+    },
+    "GrantsItemsError": "다른 것을 부여하는 아이템에 대한 새로고침은 작동하지 않습니다",
+    "GrantsPowers": "이능 부여",
+    "GroupByName": "이름으로 묶기",
+    "GroupRoll": "단체 굴림",
+    "Handling": "조종",
+    "HasPowers": "이능 보유",
+    "Head": "머리",
+    "Headquarters": {
+      "Advantage": "이점",
+      "Complication": "문제점",
+      "Form": "형태",
+      "Description": "설명",
+      "Acquisition": "획득",
+      "Maintenance": "유지보수",
+      "Upgrades": "업그레이드"
+    },
+    "HeadquartersSheet": "새비지 월드 본부 시트",
+    "HeartAttack": "심장마비",
+    "HeavyArmor": "중갑",
+    "HeavyWeapon": "중무장",
+    "Hesitant": "우유부단",
+    "HindranceSeverity": {
+      "Label": "심각도 설정",
+      "Major": "심각함 한정",
+      "Minor": "가벼움 한정",
+      "Either": "양쪽"
+    },
+    "Hindrances": "단점",
+    "HitLocations": "적중 부위",
+    "Hold": "잡기",
+    "Holding": "잡음",
+    "IgnFatigue": "피로 무시",
+    "IgnWounds": "부상 무시",
+    "Illumination": {
+      "_name": "조명",
+      "Dim": "어두침침함",
+      "Dark": "어두움",
+      "Pitch": "암흑"
+    },
+    "Imperial": "임페리얼",
+    "ImprovedLevelHeaded": "냉정침착 향상",
+    "Incap": "무력화됨",
+    "InclArmor": "자동으로 장갑을 포함한 맷집을 계산합니다.",
+    "Init": "우선권",
+    "InitDraw": "",
+    "InnatePower": "선천적 이능",
+    "Inv": "장비",
+    "Invisible": "투명",
+    "IsJoker": "은/는 조커입니다",
+    "Item": "아이템",
+    "ItemDmgMod": "아이템 피해 수정치",
+    "ItemEquipStatus": {
+      "Label": "부위",
+      "Stored": "저장됨",
+      "Carried": "휴대 중",
+      "Equipped": "장비됨",
+      "Installed": "설치됨",
+      "OffHand": "부 손",
+      "MainHand": "주 손",
+      "TwoHands": "양 손",
+      "Added": "추가됨",
+      "Readied": "준비됨"
+    },
+    "ItemGrants": {
+      "EmptyHint": "이 아이템은 현재 다른 아이템을 부여하지 않습니다.",
+      "Header": "아이템 부여",
+      "When": "이하에서 부여: "
+    },
+    "ItemIsAmmo": "은/는 탄약입니다",
+    "ItemSheet": "새비지월드 아이템 시트",
+    "ItemTraitMod": "아이템 특기 수정치",
+    "ItemType": "아이템 타입",
+    "Items": "아이템",
+    "Joker": "조커",
+    "Keybindings": {
+      "OpenFavoriteCards": {
+        "Name": "즐겨찾기 카드 패 열기",
+        "UserConfigLabel": "즐겨찾기 카드 패",
+        "Hint": "유저 설정에서 즐겨찾기 카드 패를 설정할 수 있습니다.",
+        "NoCardsWarning": "즐겨찾기 카드 패가 설정되지 않았습니다!",
+        "HandNone": "없음"
+      },
+      "Bennies": {
+        "Name": "베니 사용/받기",
+        "Hint": "누르면 베니를 사용하고, Alt키와 함께 누르면 베니를 받습니다."
+      }
+    },
+    "Label": "라벨",
+    "LayOutChaseWithDeck": "덱을 사용하여 추격 배치",
+    "Legs": "다리",
+    "LevelHeaded": "냉정침착",
+    "LinkAttr": "연관 능력치",
+    "LoadedAmmo": "장전된 탄약",
+    "LoseTurn": "턴 상실 전환",
+    "MAPenalty": {
+      "Label": "다중 행동 패널티",
+      "None": "없음"
+    },
+    "MacroActor": {
+      "Default": "기본",
+      "Self": "자신"
+    },
+    "Mag": "발",
+    "Magazine": {
+      "NoneLoaded": "탄창이 장전되지 않음",
+      "Select": "탄창 선택"
+    },
+    "MajHind": "심각한 단점",
+    "Major": "(심각)",
+    "MakeGroupLeader": "그룹 리더 생성",
+    "ManCheck": "행동 판정",
+    "Max": "최대",
+    "MaxCargo": "최대 화물 중량",
+    "MaxMods": "최대 개조",
+    "MaxPP": "최대 이능 점수",
+    "MeleeWeapons": "근접 무기",
+    "MessageOnUse": {
+      "Label": "사용시 메시지",
+      "Hint": "이 아이템이 사용되었을 때 메시지를 표시합니다."
+    },
+    "Metric": "미터법",
+    "MigrateCompendium": "컴펜디움 강제 마이그레이션",
+    "MinStr": "최소 근력",
+    "MinStrLong": "최소 근력",
+    "MinStrShort": "최소 근력",
+    "Minor": "(사소)",
+    "Misc": "기타",
+    "Mod": {
+      "Custom": {
+        "Add": "커스텀 수정치 추가"
+      },
+      "Support": "지원",
+      "Preset": {
+        "Settings": "수정치 프리셋",
+        "Choose": "수정치 선택",
+        "Add": "프리셋 추가"
+      },
+      "Value": "값",
+      "Ignore": "무시합니까?",
+      "None": "이 상황에는 수정치가 없습니다"
+    },
+    "ModAttack": "공격 수정치",
+    "ModDamage": "피해 수정치",
+    "ModHint": "수정치에 + 또는 -를 반드시 포함하도록 하십시오",
+    "ModOther": "기타 수정치",
+    "ModSlots": "개조 슬롯",
+    "ModTrait": "특기 수정치",
+    "Modifier": "수정치",
+    "Modifiers": "수정치",
+    "Mods": "개조",
+    "Name": "이름",
+    "NaturalArmor": "천연 갑주",
+    "No": "아니오",
+    "NoActionDeckDiscardPileFound": "액션 덱 버림패를 찾을 수 없습니다. 생성합니다.",
+    "NoActionDeckFound": "액션 덱을 찾을 수 없습니다. 생성합니다.",
+    "NoAmmoPP": "지정된 탄약과 일치하는 이능 점수를 찾을 수 없습니다.",
+    "NoAmmoSet": "탄알집이 존재하지 않습니다.",
+    "NoBennies": "충분한 베니가 없습니다!",
+    "NoCardsLeft": "덱에 카드가 부족합니다! {need}장의 카드가 필요하지만 {current}장만 남아있습니다.",
+    "NoDescription": "설명 없음",
+    "NoMags": "탄창으로 지정된 소모품이 소지품 내에 존재하지 않습니다.",
+    "NoSceneAvailable": "활성화된 장면이 없거나 캔버스가 비활성화되어있습니다.",
+    "NoTokenSelectedForResistRoll": "저항 굴림을 하려면, 토큰을 하나 선택하십시오.",
+    "NoUpdatedItemFound": "새로고침에 적절한 아이템을 찾을 수 없습니다.",
+    "NotEnoughAmmo": "이 액션을 실행하는 데에 필요한 탄약이 부족합니다!",
+    "NotEnoughAmmoToReload": "탄약이 부족하여 완전히 장전되지 못합니다.",
+    "NotOwnedError": "이 작업을 위해서는 이 아이템/액터를 소유해야 합니다.",
+    "Notes": "노트",
+    "NpcWildCardsOnScene": "장면상의 NPC 와일드카드",
+    "Number": "숫자",
+    "NumberOfDice": {
+      "Label": "주사위",
+      "Hint": "이 액션에 얼마나 많은 특기 주사위가 굴러갈지 결정합니다."
+    },
+    "OffHandPenalty": "잘 쓰지 않는 손 패널티",
+    "OfficialSheet": "피나클 공식 새비지 월드 시트",
+    "Ok": "확인",
+    "OldCard": "구 카드",
+    "OnFire": "사격시",
+    "OpSkill": "지시 기술",
+    "OpenACEditor": "액션 카드 에디터에서 열기",
+    "OpenOrigin": "원본 열기",
+    "Operator": "지시자",
+    "OtherStats": "기타 능력치",
+    "OutOfControl": "통제불능",
+    "PP": "이능 점수",
+    "PPAbbreviation": "PP",
+    "PPCost": "PP 소모량",
+    "PPShort": "이능점",
+    "Pace": "속도",
+    "Parry": "막기",
+    "Passengers": "탑승자",
+    "PickACard": "{name}의 카드를 고르십시오",
+    "PlayerCardDrawHelper": {
+      "Title": "SWADE 플레이어 카드 뽑기 도우미"
+    },
+    "Poisoned": "중독됨",
+    "Pow": "이능",
+    "Price": "비용",
+    "Prone": "엎드림",
+    "Properties": "항목",
+    "Protection": "보호",
+    "Quantity": "수량",
+    "Quick": "단축항목",
+    "QuickAccess": "빠른 접근",
+    "Range": {
+      "_name": "사거리",
+      "Medium": "중거리",
+      "Long": "장거리",
+      "Extreme": "초장거리"
+    },
+    "RangedWeapons": "원거리 무기",
+    "Rank": "단계",
+    "Ranks": {
+      "Novice": "초급자",
+      "Seasoned": "노련함",
+      "Veteran": "베테랑",
+      "Heroic": "영웅",
+      "Legendary": "전설"
+    },
+    "Reach": "공격 범위",
+    "Redraw": "카드 뽑기",
+    "RedrawBenny": "베니로 카드 다시 뽑기",
+    "Refresh": "카드 새로고침",
+    "RefreshOnly": "새로고침",
+    "RefreshPP": "이능점 새로고침",
+    "Reload": "재장전",
+    "ReloadNotPossible": "이 액터 타입은 재장전을 하지 않습니다.",
+    "ReloadSuccess": "무기가 성공적으로 재장전되었습니다.",
+    "ReloadType": {
+      "Label": "재장전 절차",
+      "None": "없음",
+      "Self": "자신",
+      "Single": "단발",
+      "Full": "전탄",
+      "Magazine": "탄창",
+      "Battery": "배터리",
+      "PP": "이능 점수"
+    },
+    "ReloadUnneeded": "이 무기는 이미 완전히 장전되어있습니다.",
+    "RemoveAmmo": "탄약 삭제",
+    "RemoveEffectBody": "<p style=\"text-align: center;\"><strong>{parent}</strong>에서 <strong>{label}</strong>를 제거하시겠습니까?</p>",
+    "RemoveEffectTitle": "{label}을 제거하시겠습니까?",
+    "RemoveGroupLeader": "그룹 리더 삭제",
+    "Req": "선결조건",
+    "RequiredCrew": "동료 필요",
+    "Requirements": {
+      "Other": "기타",
+      "And": "그리고",
+      "Or": "또는",
+      "Editor": {
+        "Header": "{name} 선결조건 수정",
+        "AddHint": "새 선결조건 추가",
+        "DeleteHint": "이 선결조건 삭제",
+        "Label": "라벨",
+        "Value": "값",
+        "SWID": "SWID"
+      },
+      "Combinator": "조합자"
+    },
+    "RerollWithBenny": "베니로 재굴림",
+    "Reset": "리셋",
+    "Resist": "저항",
+    "ResistRolls": "저항 굴림",
+    "Resistance": "저항",
+    "ResourcesUsed": {
+      "Label": "사용되는 자원",
+      "Hint": "이 액션에 사용되는 임의 자원의 양"
+    },
+    "RightClickZoom": "[우클릭]으로 확대합니다",
+    "RoF": "RoF",
+    "Roll": "굴림",
+    "RollDamage": "피해 굴림",
+    "RollExample": "예) +1d6x 또는 -2",
+    "RollMode": "굴림 모드",
+    "RollNoun": "굴림",
+    "RollRaise": "레이즈 굴림",
+    "RollRun": "[클릭]으로 질주 주사위를 굴립니다",
+    "Rolls": {
+      "RollResult": "굴림 결과",
+      "SwadeRoll": "굴림",
+      "DamageRoll": "피해 굴림",
+      "TraitRoll": "특기 굴림",
+      "Critfail": {
+        "Critfail": "치명적 실패",
+        "ConfirmDie": "주사위 확정",
+        "Unconfirmed": "치명적 실패가 확정되지 않음",
+        "Possible": "가능한 치명적 실패",
+        "Confirmed": "치명적 실패 확정됨",
+        "Confirm": "확인"
+      },
+      "Free": "공짜",
+      "Benny": "베니",
+      "GMBenny": "GM 베니"
+    },
+    "Running": "질주",
+    "RunningDie": "질주 주사위",
+    "RunningMod": "질주 수정치",
+    "SWID": {
+      "Long": "새비지 웓드 ID",
+      "Short": "SWID",
+      "Regenerate": "새비지 월드 ID 재생성",
+      "ChangeWarning2": "아이템의 새비지 월드 ID를 변경하면 이 아이템에 대한 참조가 깨질 수 있습니다! 주의하시고 진행하십시오.",
+      "ChangeWarning3": "계속 진행하십니까?",
+      "ChangeWarning1": "주의하시고 진행하십시오!"
+    },
+    "Scale": "크기",
+    "SelectColor": "색상 선택",
+    "SelectNewGroupLeader": "새 그룹 리더 선택",
+    "Selection": "선택",
+    "SetActionDeck": "이 덱을 액션 덱으로 설정",
+    "SetGroupColor": "그룹 색상 설정",
+    "SetUpChase": "추격 설정",
+    "SettingConf": "환경 설정",
+    "SettingConfDesc": "플레이하고자 하는 환경에 맞게 시스템을 조정합니다.",
+    "SettingConfLabel": "환경 설정 열기",
+    "SettingConfigurator": {
+      "WorldTables": "월드 표",
+      "WorldCompendiums": "월드 컴펜디움"
+    },
+    "SettingRules": "룰 설정",
+    "Settings": {
+      "ArbitFields": "임의 설정 영역",
+      "CharSheetDefaultWidth": {
+        "Name": "캐릭터 시트 기본 너비",
+        "Hint": "Width of character sheets when first opened, in pixels. Default: 650."
+      },
+      "HighlightTemplate": {
+        "Name": "템플릿 항상 하이라이트",
+        "Hint": "When enabled, Measured Templates alway highlight themselves instead of the grid."
+      },
+      "InitDiscardPile": {
+        "Name": "우선권 버림패"
+      },
+      "InitCardDeck": {
+        "Name": "우선권에 쓰이는 카드 덱"
+      },
+      "ParryBase": {
+        "Name": "격투 기술 SWID",
+        "Hint": "The Savage Worlds ID of the skill which will be used to calculate an actors Parry. Read more about the Savage Worlds ID in the docs!"
+      },
+      "UseAttributeShorts": {
+        "Name": "어트리뷰트명 단축 사용",
+        "Hint": "Activate this option if you want to see abbreviated attribute names on the pc and npc sheets, i.e. Agi instead of Agility, Sma instead of Smarts, etc. You'll need to close and reopen all open sheets for this option to take effect."
+      },
+      "WeightUnit": {
+        "Name": "무게 단위계",
+        "Hint": "Sets whether weights are measured in pounds or kilograms. Changing this will NOT change the weights on items, only how the encumbrance is calculated"
+      },
+      "HideNpcItemChatCards": {
+        "Name": "NPC 아이템 챗 카드 숨기기",
+        "Hint": "When enabled, NPC Item Chat Cards are automatically sent as a whisper to all Gamemasters instead of being posted for all to see"
+      },
+      "EnableBennyNotify": {
+        "Name": "베니 알림",
+        "Hint": "Displays chat messages when bennies are taken, given or refreshed."
+      },
+      "HideWC": {
+        "Name": "NPC 와일드카드 숨기기",
+        "Hint": "Do not show which NPCs are Wild Cards to players"
+      },
+      "CreateInitChat": {
+        "Name": "우선권 메시지 출력",
+        "Hint": "When Action Cards are drawn, Foundry will output the drawn Action Cards to the Chat if enabled."
+      },
+      "AutoInit": {
+        "Name": "자동 우선권",
+        "Hint": "Automatically draw Action Cards every round"
+      },
+      "Benny3DFront": {
+        "Name": "앞면 텍스쳐",
+        "Hint": "Front texture of the 3D Benny"
+      },
+      "Benny3DBack": {
+        "Name": "뒷면 텍스쳐",
+        "Hint": "Back texture of the 3D Benny"
+      },
+      "Benny3DBackBump": {
+        "Name": "뒷면 범프맵",
+        "Hint": "Back bump map of the benny"
+      },
+      "Benny3DFrontBump": {
+        "Name": "앞면 범프맵",
+        "Hint": "Front bump map of the benny"
+      },
+      "CoreSkillsList": {
+        "Name": "코어 기술 목록",
+        "Hint": "Enter a comma-separated list of skill names to be defined as core skills for all actors"
+      },
+      "CoreSkillsPack": {
+        "Name": "코어 기술 컴펜디움",
+        "Hint": "Choose from which Compendium the core skills will be drawn"
+      },
+      "WealthType": {
+        "Name": "재산 유형",
+        "Hint": "캐릭터의 재산과 재화를 어떻게 취급할지 결정합니다"
+      },
+      "CurrencyName": {
+        "Name": "재화 이름",
+        "Hint": "재화의 명칭을 입력하십시오"
+      },
+      "JokersWild": {
+        "Name": "조커의 와일드",
+        "Hint": "Gives a Benny to every player character when one of them is dealt a Joker"
+      },
+      "AmmoManagement": {
+        "Name": "탄약 관리",
+        "Hint": "Automates ammo consumption. See system documentation journal for details."
+      },
+      "PCAmmoFromInventory": {
+        "Name": "PC가 인벤토리의 탄약 사용",
+        "Hint": "When activated a Gear or Consumable Item that is set as ammunition will be used when reloading the weapon"
+      },
+      "NPCAmmoFromInventory": {
+        "Name": "NPC가 인벤토리의 탄약 사용"
+      },
+      "VehicleAmmoFromInventory": {
+        "Name": "차량이 인벤토리의 탄약 사용"
+      },
+      "EnableWoundPace": {
+        "Name": "속도를 부상에 동기화",
+        "Hint": "활성화하면 속도가 자동으로 부상에 영향을 받습니다"
+      },
+      "EnableConv": {
+        "Name": "신념",
+        "Hint": "신념 룰 활성화"
+      },
+      "NoPowerPoints": {
+        "Name": "이능 점수 사용 안함",
+        "Hint": "이 옵션을 활성화하면 모든 이능 점수 관련 상호작용이 숨겨집니다"
+      },
+      "AlwaysGeneralPP": {
+        "Name": "일반 이능 점수 항상 표시",
+        "Hint": "When enabled the General Powers section always shows even if all powers have an associated Arcane Background"
+      },
+      "ApplyEncumbrance": {
+        "Name": "하중 패널티 적용",
+        "Hint": "Apply encumbrance penalties. Please keep in mind that this currently does NOT SUPPORT {vigor} tests to resist {fatigue}!"
+      },
+      "GmBennies": {
+        "Name": "게임마스터 베니",
+        "Hint": "갱신할때마다 GM이 베니를 얼마나 받을지 결정합니다"
+      },
+      "VehicleMods": {
+        "Name": "차량 개조",
+        "Hint": "차량이 개조 슬롯을 사용합니다"
+      },
+      "VehicleEdges": {
+        "Name": "차량 장점",
+        "Hint": "차량이 장점과 단점을 사용합니다"
+      },
+      "VehicleSkills": {
+        "Name": "지시 기술",
+        "Hint": "Enter a comma-separated list of skill names to be defined as Operation skills for all vehicle"
+      },
+      "BennyImageSheet": {
+        "Name": "베니",
+        "Hint": "Select which image to use for Bennies on the Character Sheet"
+      },
+      "HardChoices": {
+        "Name": "어려운 선택",
+        "Hint": "Checking this will enable the Hard Choices setting rule"
+      },
+      "CardSound": {
+        "Name": "카드 사운드",
+        "Hint": "Play a short card sound when dealing Initiative"
+      },
+      "StartingCurrency": {
+        "PC": {
+          "Name": "플레이어 캐릭터 초기 재화",
+          "Hint": "Set the amount of currency that Player Character Actors recieve upon creation"
+        },
+        "NPC": {
+          "Name": "NPC 초기 재화",
+          "Hint": "Set the amount of currency that NPC Actors recieve upon creation"
+        }
+      },
+      "NPCCurrency": {
+        "Name": "NPC 재화 사용",
+        "Hint": "When enabled, all NPCs have the same currency options as Player Characters"
+      },
+      "DumbLuck": {
+        "Name": "악운",
+        "Hint": "Checking this will enable the Dumb Luck Setting Rule"
+      },
+      "WoundCap": {
+        "Name": "부상 제한",
+        "Hint": "Checking this will enable the Wound Cap Setting Rule when calculating Wounds."
+      },
+      "UnarmoredHero": {
+        "Name": "비무장 영웅",
+        "Hint": "Checking this will enable the Unarmored Hero setting rule when rolling to soak"
+      },
+      "GrittyDamage": {
+        "Name": "진창 피해",
+        "Hint": "Checking this will enable the Gritty Damage Setting Rule and allow for selecting the Injury Table to roll."
+      },
+      "InjuryTable": {
+        "Name": "중상 표",
+        "Hint": "Select the appropriate RollTable to automatically roll for Gritty Damage."
+      },
+      "HeroesNeverDie": {
+        "Name": "영웅은 죽지 않는다",
+        "Hint": "Checking this will enable the Heroes Never Die Setting Rule when determining incapacitation"
+      }
+    },
+    "Shaken": "충격",
+    "ShieldBonus": "방패 보너스",
+    "Shields": "방패",
+    "ShotsUsed": "사용된 탄약",
+    "ShowBennyAnimation": "베니 애니메이션 표시",
+    "ShowBennyAnimationDesc": "베니를 사용할 때 애니메이션을 표시합니다. Dice So Nice! 가 설치되어있을 때만 작동합니다.",
+    "ShowCharacterSummary": "캐릭터 요약 표시",
+    "ShowInChat": "채팅에서 표시",
+    "SitMod": "상황별 개수",
+    "Size": "크기",
+    "SkillModUni": "특기 수정치",
+    "SkillTest": "기술 판정",
+    "Skills": "기술",
+    "Smite": "강타",
+    "Snapfire": "스냅파이어",
+    "Source": "원전",
+    "Special": "특수 능력",
+    "SpecialAbilities": "특수 능력",
+    "SpecialAbility": "특수 능력",
+    "Status": "상태",
+    "String": "텍스트",
+    "Stunned": "기절",
+    "Subtract": "감산",
+    "SubtractPPDesc": "사용 가능한 PP에서 필요한 PP 만큼을 감산합니다.",
+    "Subtype": "부분류",
+    "Summary": "특기",
+    "SysMigrationWarning": "SWADE 시스템 데이터가 너무 오래된 Foundry 버전에서 가져온 것이기 때문에 안정적으로 최신화 마이그레이션할 수 없습니다. 프로세스를 시도하겠지만 오류가 발생할 수 있습니다.",
+    "SystemLinks": {
+      "Changelog": "변경점",
+      "Wiki": "위키",
+      "ReportAnIssue": "문제 보고"
+    },
+    "TOCBlockList": "컴펜디움 목차 블록리스트",
+    "TOCSettings": {
+      "Label": "컴펜디움 목차 설정 열기",
+      "Name": "컴펜디움 목차 설정",
+      "Hint": "컴펜디움 목차 애플리케이션을 설정합니다"
+    },
+    "TOURS": {
+      "ERROR": {
+        "ActorCreatePermission": "This Tour requires permission to create actors",
+        "SettingPermission": "This Tour requires modifying world settings",
+        "JournalCreatePermission": "This Tour requires creating a Journal Entry"
+      },
+      "AMMUNITION": {
+        "Title": "Ammunition",
+        "Description": "This Tour will show you how to use automated ammunition tracking",
+        "Actor": "Ammunition Tour Demo Character",
+        "Items": {
+          "NONE": "Longbow",
+          "SELF": "Throwing Knife",
+          "SINGLE": "Revolver",
+          "FULL": "Water Gun",
+          "MAGAZINE": "Steyr AUG",
+          "BATTERY": "Laser Gun",
+          "PP": "Wizard Gun"
+        },
+        "GameSettings": {
+          "Title": "Game Settings",
+          "Content": "First, Ammunition Tracking must be enabled in the game's system settings."
+        },
+        "SwadeSettings": {
+          "Title": "SWADE Settings",
+          "Content": "Ammunition settings are found in the <em>Savage Worlds</em> setting configurator"
+        },
+        "AmmoSettings": {
+          "Title": "Ammo Settings",
+          "Content": "These control if ammo is automatically consumed by ranged weapons."
+        },
+        "AmmoManagement": {
+          "Title": "Ammunition Management",
+          "Content": "This setting controls whether firing a ranged weapon consumes any ammo at all, either from the weapons' internal shot counter or from inventory."
+        },
+        "PCInventory": {
+          "Title": "Ammo from Inventory",
+          "Content": "The next three settings control if external items are consumed when a weapon reloads, based on the actor type. If these are unchecked but ammunition management is checked, actors of a given type will consume the shots on an item but can freely reload. This allows for arcade-style ammo management where the reload action is important to track but long-term ammo usage is not."
+        },
+        "CharacterWeapons": {
+          "Title": "Character Weapons",
+          "Content": "A character's weapons are listed in the gear tab."
+        },
+        "ReloadNone": {
+          "Title": "Reload Procedure — None",
+          "Content": "These weapons ignore the shots counter entirely, pulling directly from the linked ammo item. This setting is best for weapons that only use external ammo, such as a quiver of arrows or a drum-fed gattling gun."
+        },
+        "AmmoNone": {
+          "Title": "The Ammo Field",
+          "Content": "This should be set to a gear (e.g. Arrows) or consumable item (e.g. Barrel of Bullets) in the character's inventory. A gear item's quantity is consumed directly. Consumable items use their charges instead, with each quantity representing a full set of charges. This field must match the name of the item to be consumed <em>exactly</em>."
+        },
+        "ReloadSelf": {
+          "Title": "Reload Procedure — Self",
+          "Content": "These weapons use their own quantity to reset their shots counter. This setting is best for thrown weapons or anything else that is self-contained and uses itself up."
+        },
+        "AmmoSelf": {
+          "Title": "The Ammo Field",
+          "Content": "This field is ignored when the reload type is set to self"
+        },
+        "ReloadSingle": {
+          "Title": "Reload Procedure — Single",
+          "Content": "These weapons reload a single shot with each press of the Reload button. This setting is ideal for revolvers or other weapons with bulky pieces of ammunition that are slow to reload."
+        },
+        "AmmoSingle": {
+          "Title": "The Ammo Field",
+          "Content": "This field works similarly to Reload — None, but quantity or charges are consumed by reloading instead of by firing the weapon, as firing the weapon consumes from the Shots counter."
+        },
+        "ReloadFull": {
+          "Title": "Reload Procedure — Full",
+          "Content": "These weapons reload their entire shot counter with each press of the Reload button. This can be used as a simplified version of the Magazine method or for weapons that don't have detachable magazines, such as a gun with liquid reservoirs."
+        },
+        "AmmoFull": {
+          "Title": "The Ammo Field",
+          "Content": "This field works similarly to Reload — None, but quantity or charges are consumed by reloading instead of by firing the weapon, as firing the weapon consumes from the Shots counter."
+        },
+        "ReloadMagazine": {
+          "Title": "Reload Procedure — Magazine",
+          "Content": "These weapons use fully detachable magazines that can be swapped as needed, tracking the amount of shots left per magazine."
+        },
+        "AmmoMagazine": {
+          "Title": "The Ammo Field",
+          "Content": "The item named here MUST be a consumable with the Magazine subtype to work correctly. Furthermore, the charges of the consumable should match the shots counter of the weapon."
+        },
+        "ReloadBattery": {
+          "Title": "Reload Procedure — Battery",
+          "Content": "These weapons operate similar to magazines, but with interchangeable batteries that are depleted proportional to the shots spent."
+        },
+        "AmmoBattery": {
+          "Title": "The Ammo Field",
+          "Content": "The item named here MUST be a consumable with the Battery subtype to work correctly. Furthermore, the maximum charges of the consumable should be out of 100."
+        },
+        "ReloadPP": {
+          "Title": "Reload Procedure — Power Points",
+          "Content": "These weapons don't reload with physical ammunition but by depleting the wielder's power points, as featured in <em>Rifts® for Savage Worlds</em>"
+        },
+        "AmmoPP": {
+          "Title": "The Ammo Field",
+          "Content": "Instead of naming an item, name a valid arcane type on the character, such as general, magic, miracles, or psionics"
+        }
+      },
+      "TWEAKS": {
+        "Title": "Tweaks",
+        "Description": "Learn about the unique sheet modifications in the Tweaks menu",
+        "Actor": "Tweaks Tour Demo Character",
+        "AccessTweaks": {
+          "Title": "Accessing Tweaks",
+          "Content": "The Tweaks menu is found in each character sheet's header, and offers additional configuration options"
+        },
+        "TraitTweaks": {
+          "Title": "Trait Tweaks",
+          "Content": "This tab provides a large array of additional fields that customize a character's traits"
+        },
+        "Advances": {
+          "Title": "Advance Mode",
+          "Content": "Expanded advances (the default) bring enhanced data handling that specify the type of advance and automatically calculate your character's rank. Legacy advances are simply a large text box to write whatever you want with no data handling."
+        },
+        "Unshake": {
+          "Title": "Unshake Modifier",
+          "Content": "Adds a bonus to the automated shake roll that's prompted at the start of a shaken character's turn."
+        },
+        "Soak": {
+          "Title": "Soak Modifier",
+          "Content": "Adds a bonus to the soak roll that's prompted from the Take Damage button on the system's damage roll cards."
+        },
+        "Initiative": {
+          "Title": "Initiative Modifiers",
+          "Content": "Modifies the character's initiative handling based on rules found in the core rulebook."
+        },
+        "AutoCalc": {
+          "Title": "Automatic Calculations",
+          "Content": "Toggles whether the character's stats are derived from their attributes and equipment or manually set."
+        }
+      },
+      "ADDSTATS": {
+        "Title": "Additional Stats",
+        "Description": "Learn how to configure Additional Stats for your setting",
+        "Actor": "Additional Stats Tour Demo Character",
+        "GameSettings": {
+          "Title": "Game Settings",
+          "Content": "First, Additional Stats must be configured in the Game Settings."
+        },
+        "SwadeSettings": {
+          "Title": "SWADE Settings",
+          "Content": "Additional Stats are found in the <em>Savage Worlds</em> setting configurator."
+        },
+        "StatSettings": {
+          "Title": "Additional Stats Configuration",
+          "Content": "All stats must be first created on this page, to be enabled later on actors and items."
+        },
+        "StatKey": {
+          "Title": "Stat Key",
+          "Content": "Stat keys determine how the additional stat is referenced in the data (actor.system.additionalStats.stat-key) and must be unique."
+        },
+        "StatLabel": {
+          "Title": "Label",
+          "Content": "The text that will show up on the character sheet."
+        },
+        "StatDType": {
+          "Title": "Type",
+          "Content": "Each type has unique handling."
+        },
+        "HasMax": {
+          "Title": "Has Max Value",
+          "Content": "Adds a field to indicate the maximum of an additional stat as well as its current value (Only available for Numbers and Text)."
+        },
+        "ActorDisplay": {
+          "Title": "Additional Stats on Actors",
+          "Content": "Additional stats that are enabled on an actor display in the Summary tab."
+        },
+        "Checkbox": {
+          "Title": "Checkbox Additional Stats",
+          "Content": "The value of a checkbox is true or false."
+        },
+        "Number": {
+          "Title": "Number Additional Stats",
+          "Content": "Any number is acceptable, including decimals."
+        },
+        "Die": {
+          "Title": "Die Additional Stats",
+          "Content": "The first field accepts any valid Foundry die expression; append an x to make it explode (e.g. 1d6x). The second is a number that is added. Click the label to roll the die."
+        },
+        "Text": {
+          "Title": "Text Additional Stats",
+          "Content": "Simple string field; the width isn't very long, so long pieces of text should go in the description or other fields."
+        },
+        "Selection": {
+          "Title": "Selection Additional Stats",
+          "Content": "A fixed list of options based on the game settings."
+        },
+        "AccessTweaks": {
+          "Title": "Enabling and Disabling Additional Stats",
+          "Content": "Additional Stats can be enabled or disabled from the Additional Stats tab in the Tweaks menu."
+        },
+        "AddStatTweaks": {
+          "Title": "Additional Stats Tab",
+          "Content": "Each Additional Stat defaults to off and must be individually enabled on each actor or item."
+        }
+      },
+      "AURAS": {
+        "Title": "Auras",
+        "Description": "Introduced in version 3.2, Auras create persistent visuals that follow tokens around.",
+        "Actor": "Auras Tour Demo Character",
+        "AccessAuras": {
+          "Title": "Accessing Auras",
+          "Content": "Auras can be found in the Tweaks menu"
+        },
+        "Auramancer": {
+          "Title": "The Auras Tab",
+          "Content": "Auras have their own tab within the Tweaks menu. Characters can have a maximum of two auras."
+        },
+        "Enable": {
+          "Title": "Enabling Auras",
+          "Content": "Each aura can be enabled individually; they also fully work with unlinked tokens, allowing you to set auras individually even if they share a common source actor."
+        },
+        "Constrained": {
+          "Title": "Wall Constraints",
+          "Content": "This toggle governs whether the aura is limited by walls that block light or if it can pass through them."
+        },
+        "Radius": {
+          "Title": "Aura Radius",
+          "Content": "The Aura's radius, measured in grid units. The unit hint displayed here matches the current scene's unit of measurement."
+        },
+        "Color": {
+          "Title": "Aura Color and Transparency",
+          "Content": "Auras display similar to circular area templates around the source character; these settings let you control their visual display."
+        },
+        "Visibility": {
+          "Title": "Aura Visibility",
+          "Content": "Select which tokens (by Disposition) can see this aura. You can always see all auras of a token of which you have at least Observer permission."
+        }
+      },
+      "ADVANCES": {
+        "Title": "Advances",
+        "Description": "See how SWADE tracks character advances",
+        "Actor": "Advances Tour Demo Character",
+        "AccessAdvanceMode": {
+          "Title": "Setting the Advance Mode",
+          "Content": "A character's advance mode can be switched in the Tweaks menu."
+        },
+        "Mode": {
+          "Title": "Advance Mode Selection"
+        },
+        "AdvanceTab": {
+          "Title": "The Advances Tab",
+          "Content": "Advances are configured in the primary \"About\" tab."
+        },
+        "Create": {
+          "Title": "Creating an Advance",
+          "Content": "This button creates a new advance for use"
+        },
+        "Editor": {
+          "Title": "The Advance Editor",
+          "Content": "This form provides configuration info for a new advance."
+        },
+        "Type": {
+          "Title": "Advance Type Selection",
+          "Content": "Choose what kind of advance this is. Currently this does not trigger any further validation or selection, but future updates to the system may change this."
+        },
+        "Rank": {
+          "Title": "Advance Rank",
+          "Content": "The rank that your character will be upon arriving at this advance. This cannot be directly edited, as it is derived from your character's total number of advances."
+        },
+        "Number": {
+          "Title": "Advance Number",
+          "Content": "This controls the order of advances. Changing this will move the advance to an earlier spot in the list."
+        },
+        "Planned": {
+          "Title": "Planned Advances",
+          "Content": "You can mark advances as planned to prevent them from counting towards your character's rank."
+        },
+        "Notes": {
+          "Title": "Advance Notes",
+          "Content": "Include any relevant information about your advance here; what traits you increased, what edges you selected, etc."
+        },
+        "SaveChanges": {
+          "Title": "Save Changes Button",
+          "Content": "Changes are NOT saved automatically back to the character. You must use the save button in the ProseMirror Editor or this \"Save Changes\" button"
+        }
+      },
+      "HEADQUARTERS": {
+        "Title": "Headquarters",
+        "Description": "Learn about the new Journal Entry Page type, Headquarters! Useful for <em>Fantasy Companion</em> strongholds, <em>Horror Companion</em> lodges, and <em>Super Powers Companion</em> bases.",
+        "JournalEntry": "Headquarters Tour Journal",
+        "HeadquartersPage": "Headquarters Tour Page",
+        "CreateJournal": {
+          "Title": "Create a Journal",
+          "Content": "Headquarters must be created within a parent journal."
+        },
+        "CreatePage": {
+          "Title": "Create a Headquarters Page",
+          "Content": "Headquarters are a new journal page type, just like text, image, and pdf."
+        },
+        "HQPage": {
+          "Title": "The Headquarters Page",
+          "Content": "Headquarters are like text pages, but provide more structured input. The sections are modeled after the four steps provided in each of the companions."
+        },
+        "Advantage": {
+          "Title": "Advantage",
+          "Content": "The specific advantages depend on what genre you're playing; you can drag roll results into this section."
+        },
+        "Complication": {
+          "Title": "Complication",
+          "Content": "Like advantages, you can drag roll results into this section."
+        },
+        "Form": {
+          "Title": "Form",
+          "Content": "The form section is split into three parts so you have room to describe every aspect of your headquarters."
+        },
+        "Upgrades": {
+          "Title": "Upgrades",
+          "Content": "You can list your upgrades here. This is a fully rendered HTML input, so feel free to use a bulleted list, table, or whatever other organizational system makes sense to you."
+        }
+      }
+    },
+    "TargetVulnerable": "대상이 취약합니다",
+    "Targets": "대상:",
+    "Templates": {
+      "Cone": {
+        "Short": "원뿔",
+        "Long": "원뿔 템플릿"
+      },
+      "Stream": {
+        "Short": "선형",
+        "Long": "선형 템플릿"
+      },
+      "Small": {
+        "Short": "소형원",
+        "Long": "소형 원형 템플릿"
+      },
+      "Medium": {
+        "Short": "중형원",
+        "Long": "중형 원형 템플릿"
+      },
+      "Large": {
+        "Short": "대형원",
+        "Long": "대형 원형 템플릿"
+      },
+      "Available": "사용 가능한 템플릿",
+      "Possible": "가능한 템플릿"
+    },
+    "ToggleIncap": "무력화 전환",
+    "Topspeed": "최대 속도",
+    "Torch": "횃불",
+    "Torso": "몸통",
+    "Tough": "맷집",
+    "TrademarkWeapon": {
+      "Label": "고유 무기",
+      "None": "없음",
+      "Regular": "일반",
+      "Improved": "향상"
+    },
+    "Trait": "특기",
+    "TraitMod": "특기 수정치",
+    "TraitRolls": "특기 굴림",
+    "Trap": "트래핑",
+    "Trapping": "트래핑",
+    "Tweaks": "트윅",
+    "Unequipped": "미장착",
+    "Unfamiliar": {
+      "2": "생소함 (-2)",
+      "4": "생소함 (-4)"
+    },
+    "Unfollow": "{name}의 추종을 그만둡니다",
+    "Unskilled": "미숙한 시도",
+    "UnstablePlatform": "불안정한 발판",
+    "UsesTOC": "컴펜디움 목차 사용",
+    "Validation": {
+      "OnlyOneAncestry": "한번에 하나의 혈통만 가질 수 있습니다!",
+      "OnlyOneArchetype": "한번에 하나의 아키타입만 가질 수 있습니다!"
+    },
+    "VehicleMod": "탈것 개조",
+    "Vehicles": "탈것",
+    "Vehicular": "탈것 무기",
+    "Vision": {
+      "SeeHeat": "열 시야",
+      "SenseHeat": "열 감지",
+      "Infravision": "인프라비전"
+    },
+    "Vuln": "취약함",
+    "WarningPackLocked": "잠긴 컴펜디움을 수정할 수 없습니다. 먼저 잠금을 해제해주십시오.",
+    "Weakness": "약점",
+    "Wealth": "재산",
+    "WealthDie": {
+      "Label": "재산 주사위",
+      "Broke": {
+        "Label": "파산",
+        "Hint": "파산했습니다!"
+      },
+      "Sides": "재산 주사위 면",
+      "WildSides": "재산 와일드 다이스 면",
+      "Modifier": "재산 주사위 수정치"
+    },
+    "WealthSelectionNoneOther": "없음/기타",
+    "Weapon": {
+      "RangeType": {
+        "Label": "사거리 분류",
+        "Melee": "근점",
+        "Ranged": "원거리",
+        "Mixed": "혼합"
+      }
+    },
+    "Weapons": "무기",
+    "WeaponsAndArmor": "무기 & 방어구",
+    "Weight": "무게",
+    "WildAttack": "무모한 공격",
+    "WildCard": "와일드 카드",
+    "WildDie": "와일드 다이스",
+    "WildDiePreset": "와일드 다이스 프리셋",
+    "WildDiePresetDesc": "와일드 다이스에 사용될 DSN 프리셋을 선택하십시오.",
+    "WildDieSides": "와일드 다이스 면",
+    "WildDieTheme": "와일드 다이스 테마",
+    "WildDieThemeDesc": "와일드 다이스에 DSN 테마를 적용합니다. '커스텀'을 선택해 직접 만들거나 와일드 다이스가 다르게 보이길 원하지 않는 경우 '없음'을 선택할 수 있습니다. 직접 만든 와일드 다이스는 자신에게만 그렇게 보인다는 것에 유의하십시오. 다른 플레이어들에게는 다르게 보입니다.",
+    "WorldBasics": "월드 기초",
+    "Wound": "부상",
+    "Wounds": "부상",
+    "WoundsMax": "최대 부상",
+    "Wrecked": "파손됨",
+    "Yes": "예",
+    "ppReload": "이능 점수로 재장전"
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "플레이어 캐릭터",
+      "npc": "NPC",
+      "vehicle": "탈것"
+    },
+    "Item": {
+      "ability": "능력",
+      "action": "액션",
+      "armor": "방어구",
+      "consumable": "소모품",
+      "edge": "장점",
+      "gear": "장비",
+      "hindrance": "단첨",
+      "power": "이능",
+      "shield": "방패",
+      "skill": "기술",
+      "weapon": "무기"
+    },
+    "Card": {
+      "adventure": "어드벤처 카드",
+      "poker": "포커 카드"
+    },
+    "JournalEntryPage": {
+      "headquarters": "본부"
+    }
+  }
 }

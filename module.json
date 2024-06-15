@@ -1,24 +1,43 @@
 {
 	"name": "swadekr",
-	"title": "Translation: Korean [SWADE]",
+	"title": "Translation : Korean [SWADE]",
 	"description": "<p>새비지월드 한글</p>",
-	"version": "1.0.1",
-	"minimumCoreVersion" : "0.6.0",
-	"compatibleCoreVersion": "1.0.0",
+	"version": "1.0.2",
+	"minimumCoreVersion" : "11",
+	"compatibleCoreVersion": "11",
 	"author": "mrkb",
 	"esmodules": [
-	"babele-register.js"
+		"babele-register.js"
 	],
 	"scripts": [],
 	"styles": ["style.css"],
 	"packs": [],
 	"languages": [
-	{
-      "lang": "ko",
-      "name": "한국어(Korean)",
-      "path": "ko.json"
-    }
+		{
+		  "lang": "ko",
+		  "name": "한국어(Korean)",
+		  "path": "ko.json"
+		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "archmage",
+				"type": "system",
+				"compatibility": {
+					"minimum": "1.26.1",
+					"verified": "1.26.1"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "babele",
+				"type": "module",
+				"compatibility": {}
+			}
+		]
+	},
 	"url": "https://github.com/MaronKB/swadekr",
 	"manifest": "https://raw.githubusercontent.com/MaronKB/swadekr/main/module.json",
 	"download": "https://github.com/MaronKB/swadekr/archive/main.zip"
