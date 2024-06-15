@@ -22,11 +22,11 @@
 	"relationships": {
 		"systems": [
 			{
-				"id": "archmage",
+				"id": "swade",
 				"type": "system",
 				"compatibility": {
-					"minimum": "1.26.1",
-					"verified": "1.26.1"
+					"minimum": "3",
+					"verified": "3.3.11"
 				}
 			}
 		],
