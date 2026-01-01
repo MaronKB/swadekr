@@ -1,24 +1,81 @@
 @font-face {
-    font-family: 'MaplestoryOTFBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-family: 'Yangjin';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: 'MaplestoryOTFLight';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 200;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2);
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2);
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cafe24SurroundAir';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
 
-.swade.sheet.actor.character .skills .skills-list .skill-attribute {
-	flex-grow: 1;
+:root {
+    --swade-kr-heading-font: "Yangjin", "Anton", "Signika", sans-serif;
+    --swade-kr-default-font: "MaruBuri", "Roboto Slab", "Signika", serif;
+    --font-awesome: "Font Awesome 6 Pro";
+    --swadehud-font-primary: var(--swade-kr-default-font), serif;
 }
-.swade.sheet.actor.character .vitals .bennies,
-.swade.sheet.actor .sheet-body .skills .skills-list,
-.swade.sheet.actor.character .skills .skills-list {
-	box-sizing: content-box;
+
+.swade-item-sheet .type, .swade-official .tabs .item {
+    font-family: var(--swade-kr-heading-font), sans-serif;
 }
-body {
-	font-family: 'MaplestoryOTFLight';
+
+.swade-official {
+    --default-font-size: 0.9em;
+    --default-font: var(--swade-kr-default-font);
+    --section-header-font: var(--swade-kr-heading-font);
+    font-family: var(--default-font), serif;
+}
+
+.swade-official .conviction-enabled #conviction, .swade-official .section-header, .swade-official #conviction .conviction-toggle, .headquarters-journal .section-header, .journal-entry-page.headquarters .section-header {
+    font-family: var(--section-header-font), sans-serif;
+}
+
+.swade-official button:not(section.secret>button.reveal), .swade-official .section-header .controls, .swade-official .gear-card .card-content .power-details, .swade-official .gear-card .card-content .trapping, .swade-official .powers .power .power-details, .swade-official .powers .power .trapping, .swade-official .powers .pp-counter, .swade-app option, .swade-app input[type=number], .swade-app input[type=text], .swade-app select {
+    font-family: var(--default-font), serif;
+}
+
+.swade-official .charges-summary ul.charge-list, .swade-official .inventory .description, .swade-official .edges .description, .swade-official .effects .description, .swade-official .powers .power .description, .card-button, .swade-official .powers .item-card .card-buttons button, .swade-official .summary .quick-list .gear-card .card-content .card-buttons button {
+    font-family: "Cafe24SurroundAir", Signika, sans-serif;
+}
+
+.swade-app, .swade-application {
+    --font-family: var(--swade-kr-default-font), var(--font-awesome);
+    --heading-font: var(--swade-kr-heading-font), sans-serif;
+}
+
+.swadehud-popout, .swadehud-popout-close, .swadehud-edge, .swadehud-hindrance, .swadehud-roll-trait, .swadehud-bottomstat, .swadehud-bottomstat--label, .swadehud--layout, .swadehud .effects-heading .controls, .swadehud-effect, .app.window-app[id=swadehud] .window-content, .swadehud #swadehud.app.window-app .window-content, .swadehud .app.window-app[id=swadehud] section.window-content {
+    font-family: var(--swadehud-font-primary), serif;
 }
