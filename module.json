@@ -47,7 +47,7 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/MaronKB/swadekr",
-  "manifest": "https://raw.githubusercontent.com/MaronKB/swadekr/main/module.json",
-  "download": "https://github.com/MaronKB/swadekr/archive/main.zip"
+  "url": "https://github.com/mrkb-fvtt-modules/fvtt-swade-kr",
+  "manifest": "https://raw.githubusercontent.com/mrkb-fvtt-modules/fvtt-swade-kr/main/module.json",
+  "download": "https://github.com/mrkb-fvtt-modules/fvtt-swade-kr/archive/main.zip"
 }
